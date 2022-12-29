@@ -1,0 +1,11 @@
+{
+    "Fifty.mp_frostbite": {
+        "DependencyPrefix": "Fifty-Frostbite",
+        "Versions" : [
+            { 
+                "Version": "0.0.1",
+                "Checksum": "8cf111c9ac2ab1521677769702e10be4db8d47c0eca16bda197aceb895cf2b5c"
+            }
+        ]
+    }
+}
