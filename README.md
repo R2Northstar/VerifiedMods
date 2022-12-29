@@ -9,13 +9,14 @@
 ### How to submit a mod for verification
 
 * Ensure your mod is valid candidate to verification (is client-side required)
-* Respects defined criteria
+* Respects defined criteria:
   * does not embed malicious code
   * follows semantic versioning
   * source code is publicly available (link is on Thunderstore page) 
   * is automatically uploaded to Thunderstore
 * Only then can you submit a PR
-  * with checksum
+  * add mod entry to JSON file for new mods, or add version entry
+  * don't forget checksum in any case
   * we'll review your PR ASAP
 
 To avoid preventing users connecting to your server requiring a mod that's not been verified yet, we recommand you to update your mod following these steps (let's consider that your server requires a mod with version v0.1.0):
@@ -32,5 +33,7 @@ To avoid preventing users connecting to your server requiring a mod that's not b
   * Ensure packages are automatically uploaded to Thunderstore
 * Manually download Thunderstore archive
 * Browse all code for malicious stuff
-* Compare checksum with the one included in the PR
+* In JSON document update:
+  * Check Thunderstore prefix is correct
+  * Compare checksum with the one included in the PR
 * Accept PR
