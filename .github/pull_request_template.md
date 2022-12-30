@@ -6,6 +6,9 @@
 ## Did I update mods.json with my new mod's information?
 <YES/NO>
 
+## Has a previous version of my mod been previously verified?
+<YES/NO>
+
 ## Mod description
 <YOUR_MODS_DESCRIPTION_HERE>
 
