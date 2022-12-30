@@ -70,13 +70,18 @@ Once you're done, submit your pull request! We'll review your mod as soon as pos
 
 ## How to verify a mod
 
-* Check if semver is respected
-* Check Thunderstore webpage
-  * Ensure source link is present
-  * Ensure packages are automatically uploaded to Thunderstore
-* Manually download Thunderstore archive
-* Browse all code for malicious stuff
-* In JSON document update:
-  * Check Thunderstore prefix is correct
-  * Compare checksum with the one included in the PR
-* Accept PR
+Wanna help us verify mods? Cool! Here's how to do it:
+
+1. Check the mod's Thunderstore webpage:
+  * Ensure there's a link to source code repository;
+  * Ensure packages are automatically uploaded to Thunderstore.
+2. Download Thunderstore zip archive:
+  * Ensure semver is respected (*i.e.* mod version is correctly updated);
+  * Browse all code for malicious stuff.
+3. In JSON document update:
+  * Check Thunderstore prefix is correct (must equal "Dependency string" on Thunderstore webpage without version information);
+  * Manually checksum archive, and ensure hash is the same with the one included in the PR.
+
+If everything seems good to you, you can merge the pull request, officially marking the mod as verified!
+
+However, if you have any doubt during any of the above steps, don't hesitate to start discussion with mod author in the current pull request on GitHub.
