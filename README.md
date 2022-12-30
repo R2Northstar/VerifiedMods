@@ -2,22 +2,28 @@
 
 *[WORKING DOCUMENT]*
 
-* What's this repo?
-* How is this used in Northstar?
-* Architecture of mods.json
+This repository lists all mods that have been manually verified by the community, and as such can be downloaded automatically by Northstar clients.
 
-### How to submit a mod for verification
+This verified mods enables players to join servers that require custom content such as new maps or new gamemodes.
 
-* Ensure your mod is valid candidate to verification (is client-side required)
-* Respects defined criteria:
-  * does not embed malicious code
-  * follows semantic versioning
-  * source code is publicly available (link is on Thunderstore page) 
-  * is automatically uploaded to Thunderstore
-* Only then can you submit a PR
-  * add mod entry to JSON file for new mods, or add version entry
-  * don't forget checksum in any case
-  * we'll review your PR ASAP
+Verified mods are listed in the present `mods.json` file, using following format:
+* Key is mod's name (contained in its `mod.json` manifest's "Name" key);
+* Body holds two fields:
+  * "DependencyPrefix" contains the string that allows Northstar to retrieve mods on Thunderstore;
+  * "Versions" contains a list of version (for the current mod) that have been verified.
+
+## How to submit a mod for verification
+
+Before starting to submit your mod for verification, please ensure that it is a valid candidate to mod verification! Only mods required by a server to be client-side can be verified.
+
+*Good examples:*
+* Maps;
+* Gamemodes.
+
+*Bad examples:*
+* Skins (only required client-side).
+
+##### Note before you start
 
 To avoid preventing users connecting to your server requiring a mod that's not been verified yet, we recommand you to update your mod following these steps (let's consider that your server requires a mod with version v0.1.0):
 1. Publish the new version of your mod (v0.2.0 for instance) on Thunderstore;
@@ -25,7 +31,44 @@ To avoid preventing users connecting to your server requiring a mod that's not b
 3. Submit a mod verification request of your new version (v0.2.0);
 4. Switch your server to using v0.2.0 once it has been verified.
 
-### How to verify a mod
+### Criteria
+
+For your mod to be successfully verified, it MUST follow the following set of rules:
+* **do not embed malicious code (obviously)**: your mod is going to be downloaded to people's computers, so it shouldn't do something nasty (*e.g.* mining some cryptos without users' knowledge);
+* **follow semantic versioning**: when updating your mod, you should update its version accordingly: increase patch version for small fixes, minor version for new compatible features, major version for breaking changes. Please read [semver.org](https://semver.org/) for more details;
+* **source code is public**: your mod's Thunderstore webpage should display a link to your source code repository;
+* **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate>), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release.
+
+Are all of the above criteria OK? Well, time to create a pull request!
+
+After forking this repository, update the `mods.json` file with content related to your mod:
+* add a new entry if your mod hasn't been verified yet;
+* add a new version entry in your mod's entry otherwise.
+
+In either case, don't forget to add the new archive's checksum to the `mods.json` file.
+
+### Checksum
+
+To make sure that the mod downloaded by Northstar is the same that has been verified, we use cryptographic hashes of Thunderstore mod archives (think of them as "file signatures"); if the content of the archive is changed, its hash will change too.
+
+There are different hash algorithms; this mod verification mechanism uses the [SHA256](https://www.movable-type.co.uk/scripts/sha256.html) algorithm.
+
+To submit your mod for verification, you need to provide the hash for the corresponding Thunderstore zip archive.
+
+On Windows, it's done using the `certutil` executable (in Powershell or cmd):
+```shell
+certutil -hashfile my_thunderstore_mod_archive.zip SHA256
+```
+
+On Linux, it's even easier:
+```shell
+sha256sum my_thunderstore_mod_archive.zip
+```
+---
+
+Once you're done, submit your pull request! We'll review your mod as soon as possible, so be on the lookout for comments!
+
+## How to verify a mod
 
 * Check if semver is respected
 * Check Thunderstore webpage
