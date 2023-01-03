@@ -7,7 +7,7 @@
 <YES/NO>
 
 ## Has a previous version of my mod been previously verified?
-<YES/NO>
+<YES/NO> (if YES, link to the request PR)
 
 ## Mod description
 <YOUR_MODS_DESCRIPTION_HERE>
