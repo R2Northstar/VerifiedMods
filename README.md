@@ -21,7 +21,10 @@ Before starting to submit your mod for verification, please ensure that it is a 
 * Gamemodes.
 
 *Bad examples:*
-* Skins (only required client-side).
+* Skins (only required client-side);
+* Audio overrides;
+* UI changes;
+* Custom skyboxes.
 
 ##### Note before you start
 
