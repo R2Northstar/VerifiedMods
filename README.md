@@ -40,7 +40,8 @@ For your mod to be successfully verified, it MUST follow the following set of ru
 * **do not embed malicious code (obviously)**: your mod is going to be downloaded to people's computers, so it shouldn't do something nasty (*e.g.* mining some cryptos without users' knowledge);
 * **follow semantic versioning**: when updating your mod, you should update its version accordingly: increase patch version for small fixes, minor version for new compatible features, major version for breaking changes. Please read [semver.org](https://semver.org/) for more details;
 * **source code is public**: your mod's Thunderstore webpage should display a link to your source code repository;
-* **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate>), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release.
+* **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate>), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release;
+* **verified dependencies**: if your mod depends on other mods, they're gonna be downloaded to people's computers too, so they have to be verified as well.
 
 Are all of the above criteria OK? Well, time to create a pull request!
 
