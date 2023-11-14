@@ -14,3 +14,6 @@
 
 ## Thunderstore link
 <YOUR_MODS_THUNDERSTORE_WEBPAGE_LINK_HERE>
+
+## GitHub repo link
+<YOUR_MODS_GITHUB_REPO_LINK_HERE>
