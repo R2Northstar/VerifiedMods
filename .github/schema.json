@@ -10,7 +10,8 @@
             "properties": {
                 "DependencyPrefix": {
                     "required": true,
-                    "type": "string"
+                    "type": "string",
+                    "pattern": "^([A-Za-z._]+)-([A-Za-z._]+)$"
                 },
                 "Versions": {
                     "required": true,
