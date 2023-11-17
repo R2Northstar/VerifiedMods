@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Verified mods manifesto",
+    "description": "A list of mods that can be automatically downloaded by the Northstar client.",
+    "type": "object",
+    "patternProperties": {
+        "^[A-Za-z._]+": {
+            "type": "object",
+            "required": true,
+            "properties": {
+                "DependencyPrefix": {
+                    "required": true,
+                    "type": "string"
+                },
+                "Versions": {
+                    "required": true,
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Version": {
+                                "required": true,
+                                "type": "string",
+                                "pattern": "^(([0-9]+)\\.([0-9]+)\\.([0-9]+))$"
+                            },
+                            "Checksum": {
+                                "required": true,
+                                "type": "string",
+                                "pattern": "^([0-9a-f]+)$",
+                                "minLength": 64,
+                                "maxLength": 64
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
