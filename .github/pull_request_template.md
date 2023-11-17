@@ -3,7 +3,7 @@
 ## Did I read the whole README file and understood all of its content?
 <YES/NO>
 
-## Did I update mods.json with my new mod's information?
+## Did I update verified-mods.json with my new mod's information?
 <YES/NO>
 
 ## Has a previous version of my mod been previously verified?

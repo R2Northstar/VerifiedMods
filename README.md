@@ -6,7 +6,7 @@ This repository lists all mods that have been manually verified by the community
 
 This verified mods enables players to join servers that require custom content such as new maps or new gamemodes.
 
-Verified mods are listed in the present `mods.json` file, using following format:
+Verified mods are listed in the present `verified-mods.json` file, using following format:
 * Key is mod's name (contained in its `mod.json` manifest's "Name" key);
 * Body holds two fields:
   * "DependencyPrefix" contains the string that allows Northstar to retrieve mods on Thunderstore;
@@ -45,11 +45,11 @@ For your mod to be successfully verified, it MUST follow the following set of ru
 
 Are all of the above criteria OK? Well, time to create a pull request!
 
-After forking this repository, update the `mods.json` file with content related to your mod:
+After forking this repository, update the `verified-mods.json` file with content related to your mod:
 * add a new entry if your mod hasn't been verified yet;
 * add a new version entry in your mod's entry otherwise.
 
-In either case, don't forget to add the new archive's checksum to the `mods.json` file.
+In either case, don't forget to add the new archive's checksum to the `verified-mods.json` file.
 
 ### Checksum
 
