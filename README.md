@@ -6,7 +6,7 @@ This repository lists all mods that have been manually verified by the community
 
 This verified mods enables players to join servers that require custom content such as new maps or new gamemodes.
 
-Verified mods are listed in the present `mods.json` file, using following format:
+Verified mods are listed in the present `verified-mods.json` file, using following format:
 * Key is mod's name (contained in its `mod.json` manifest's "Name" key);
 * Body holds two fields:
   * "DependencyPrefix" contains the string that allows Northstar to retrieve mods on Thunderstore;
@@ -40,16 +40,16 @@ For your mod to be successfully verified, it MUST follow the following set of ru
 * **do not embed malicious code (obviously)**: your mod is going to be downloaded to people's computers, so it shouldn't do something nasty (*e.g.* mining some cryptos without users' knowledge);
 * **follow semantic versioning**: when updating your mod, you should update its version accordingly: increase patch version for small fixes, minor version for new compatible features, major version for breaking changes. Please read [semver.org](https://semver.org/) for more details;
 * **source code is public**: your mod's Thunderstore webpage should display a link to your source code repository;
-* **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate>), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release;
+* **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release;
 * **verified dependencies**: if your mod depends on other mods, they're gonna be downloaded to people's computers too, so they have to be verified as well.
 
 Are all of the above criteria OK? Well, time to create a pull request!
 
-After forking this repository, update the `mods.json` file with content related to your mod:
+After forking this repository, update the `verified-mods.json` file with content related to your mod:
 * add a new entry if your mod hasn't been verified yet;
 * add a new version entry in your mod's entry otherwise.
 
-In either case, don't forget to add the new archive's checksum to the `mods.json` file.
+In either case, don't forget to add the new archive's checksum to the `verified-mods.json` file.
 
 ### Checksum
 
