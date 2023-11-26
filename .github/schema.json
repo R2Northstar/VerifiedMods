@@ -13,6 +13,7 @@
                     "type": "string",
                     "pattern": "^([A-Za-z._]+)-([A-Za-z._]+)$"
                 },
+                "Repository": { "$ref": "#/definitions/repositoryUrl" },
                 "Versions": {
                     "required": true,
                     "type": "array",
@@ -36,5 +37,8 @@
                 }
             }
         }
+    },
+    "definitions": {
+        "repositoryUrl": { "format": "uri", "pattern": "^https://" }
     }
 }
