@@ -8,7 +8,11 @@ jobs:
     steps:
       - name: Main
         run: |
-          ls
+          echo "FOO=$(git status)" >> $GITHUB_ENV
+      - name: Use the value
+        id: step_two
+        run: |
+          echo "${{ env.FOO }}"
       - uses: actions/checkout@v1
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
