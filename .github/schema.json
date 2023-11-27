@@ -4,12 +4,12 @@
     "description": "A list of mods that can be automatically downloaded by the Northstar client.",
     "type": "object",
     "patternProperties": {
-        "^[A-Za-z._]+": {
+        "^[A-Za-z._0-9]+": {
             "type": "object",
             "properties": {
                 "DependencyPrefix": {
                     "type": "string",
-                    "pattern": "^([A-Za-z._]+)-([A-Za-z._]+)$"
+                    "pattern": "^([A-Za-z._0-9]+)-([A-Za-z._0-9]+)$"
                 },
                 "Repository": {
                     "type": "string",
