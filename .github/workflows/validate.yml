@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: ./.github/schema.json
-          INPUT_JSONS: ./verified-mods.json
+      - name: Validate package.json against local schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+            file: 'verified-mods.json'
+            schema: '.github/schema.json'
