@@ -1,15 +1,14 @@
 # Northstar verified mods
 
-*[WORKING DOCUMENT]*
-
 This repository lists all mods that have been manually verified by the community, and as such can be downloaded automatically by Northstar clients.
 
 This verified mods enables players to join servers that require custom content such as new maps or new gamemodes.
 
 Verified mods are listed in the present `verified-mods.json` file, using following format:
 * Key is mod's name (contained in its `mod.json` manifest's "Name" key);
-* Body holds two fields:
+* Body holds three fields:
   * "DependencyPrefix" contains the string that allows Northstar to retrieve mods on Thunderstore;
+  * "Repository" contains the link of the repository hosting the source code of the mod;
   * "Versions" contains a list of version (for the current mod) that have been verified.
 
 ## How to submit a mod for verification
@@ -49,7 +48,7 @@ After forking this repository, update the `verified-mods.json` file with content
 * add a new entry if your mod hasn't been verified yet;
 * add a new version entry in your mod's entry otherwise.
 
-In either case, don't forget to add the new archive's checksum to the `verified-mods.json` file.
+In either case, don't forget to add the new archive's checksum and commit hash to the `verified-mods.json` file.
 
 ### Checksum
 
@@ -84,7 +83,8 @@ Wanna help us verify mods? Cool! Here's how to do it:
   * Browse all code for malicious stuff.
 3. In JSON document update:
   * Check Thunderstore prefix is correct (must equal "Dependency string" on Thunderstore webpage without version information);
-  * Manually checksum archive, and ensure hash is the same with the one included in the PR.
+  * Manually checksum archive, and ensure hash is the same with the one included in the PR;
+  * Ensure "CommitHash" value is a valid hash on the mod's repository.
 
 If everything seems good to you, you can merge the pull request, officially marking the mod as verified!
 
