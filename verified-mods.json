@@ -1,10 +1,12 @@
 {
-    "Fifty.mp_frostbite": {
-        "DependencyPrefix": "Fifty-Frostbite",
-        "Versions" : [
-            { 
-                "Version": "0.0.1",
-                "Checksum": "8cf111c9ac2ab1521677769702e10be4db8d47c0eca16bda197aceb895cf2b5c"
+    "Odd.s2space": {
+        "DependencyPrefix": "odds-s2space",
+        "Repository": "https://github.com/uniboi/s2space",
+        "Versions": [
+            {
+                "Version": "0.0.4",
+                "CommitHash": "f27b8f1f05d5278aa8f47ead2d9e70f39f274173",
+                "Checksum": "670987e07806e8dffcb591bad8724f29abc18d9baa304d9ab4fae7804bd86bc2"
             }
         ]
     }
