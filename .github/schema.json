@@ -6,47 +6,42 @@
     "patternProperties": {
         "^[A-Za-z._]+": {
             "type": "object",
-            "required": true,
             "properties": {
                 "DependencyPrefix": {
-                    "required": true,
                     "type": "string",
                     "pattern": "^([A-Za-z._]+)-([A-Za-z._]+)$"
                 },
-                "Repository": { 
-                    "required": true,
+                "Repository": {
                     "type": "string",
                     "pattern": "^https://"
                  },
                 "Versions": {
-                    "required": true,
                     "type": "array",
                     "items": {
                         "type": "object",
                         "properties": {
                             "Version": {
-                                "required": true,
                                 "type": "string",
                                 "pattern": "^(([0-9]+)\\.([0-9]+)\\.([0-9]+))$"
                             },
                             "Checksum": {
-                                "required": true,
                                 "type": "string",
                                 "pattern": "^([0-9a-f]+)$",
                                 "minLength": 64,
                                 "maxLength": 64
                             },
                             "CommitHash": {
-                                "required": true,
                                 "type": "string",
                                 "pattern": "^([0-9a-f]+)$",
                                 "minLength": 40,
                                 "maxLength": 40
                           }
-                        }
+                        },
+                        "required": [ "Version", "Checksum", "CommitHash" ]
                     }
                 }
-            }
+            },
+            "required": [ "DependencyPrefix", "Repository", "Versions" ]
         }
     }
 }
