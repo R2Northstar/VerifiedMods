@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Main
         run: |
-          echo "FOO=$(git status)" >> $GITHUB_ENV
+          echo "FOO=$(ls -la)" >> $GITHUB_ENV
       - name: Use the value
         id: step_two
         run: |
