@@ -12,3 +12,14 @@ jobs:
         with:
             file: 'verified-mods.json'
             schema: '.github/schema.json'
+  verify-mods-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+      - name: Run mod checks
+        run: |
+          python .github/verify_versions.py
