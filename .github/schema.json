@@ -35,7 +35,10 @@
                                 "pattern": "^([0-9a-f]+)$",
                                 "minLength": 40,
                                 "maxLength": 40
-                          }
+                            },
+                            "RequiresRestart": {
+                                "type": "boolean"
+                            }
                         },
                         "required": [ "Version", "Checksum", "CommitHash" ]
                     }
