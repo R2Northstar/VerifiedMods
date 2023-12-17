@@ -40,7 +40,7 @@
                                 "type": "boolean"
                             }
                         },
-                        "required": [ "Version", "Checksum", "CommitHash" ]
+                        "required": [ "Version", "Checksum", "CommitHash", "RequiresRestart" ]
                     }
                 }
             },
