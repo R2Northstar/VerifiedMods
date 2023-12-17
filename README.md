@@ -6,10 +6,11 @@ This verified mods enables players to join servers that require custom content s
 
 Verified mods are listed in the present `verified-mods.json` file, using following format:
 * Key is mod's name (contained in its `mod.json` manifest's "Name" key);
-* Body holds three fields:
+* Body holds four fields:
   * "DependencyPrefix" contains the string that allows Northstar to retrieve mods on Thunderstore;
   * "Repository" contains the link of the repository hosting the source code of the mod;
-  * "Versions" contains a list of version (for the current mod) that have been verified.
+  * "Versions" contains a list of version (for the current mod) that have been verified;
+  * "RequiresRestart" contains a boolean for if the mod requires a game restart to be loaded properly.
 
 ## How to submit a mod for verification
 
