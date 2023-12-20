@@ -9,5 +9,16 @@
                 "Checksum": "670987e07806e8dffcb591bad8724f29abc18d9baa304d9ab4fae7804bd86bc2"
             }
         ]
+    },
+    "Parkour": {
+        "DependencyPrefix": "Alystrasz-Parkour",
+        "Repository": "https://github.com/Alystrasz/Alystrasz.Parkour",
+        "Versions": [
+            {
+                "Version": "0.2.1",
+                "CommitHash": "0eca593ac1666aeeaa061a5c545d917d47d6d113",
+                "Checksum": "eef8ae5a88df68b249529f31713d0219b18391202dfeedc2d109936c729c571c"
+            }
+        ]
     }
 }
