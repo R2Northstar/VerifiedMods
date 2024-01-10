@@ -20,5 +20,16 @@
                 "Checksum": "eef8ae5a88df68b249529f31713d0219b18391202dfeedc2d109936c729c571c"
             }
         ]
+    },
+    "Dinorush's LTS Rebalance": {
+        "DependencyPrefix": "Dinorush-LTS_Rebalance",
+        "Repository": "https://github.com/Dinorush/LTSRebalance",
+        "Versions": [
+            {
+                "Version": "1.0.7",
+                "CommitHash": "965e220608c20c75a5ed371a8aa1f3ee5e7b0a9c",
+                "Checksum": "d41572cffb2ac87a3d5fae180bfedd9589f3a9f16e20dbd2faa697cae219ed6c"
+            }
+        ]
     }
 }
