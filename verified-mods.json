@@ -26,9 +26,9 @@
         "Repository": "https://github.com/Dinorush/LTSRebalance",
         "Versions": [
             {
-                "Version": "1.0.8",
-                "CommitHash": "e972dae74bb9fe36f0cd5647c3d6ee5f717dd12a",
-                "Checksum": "2959211A7D9A79EF66DB8FCECFF8995F4B06E18FBE1E428DC69E937C2194E690"
+                "Version": "1.0.9",
+                "CommitHash": "f8353281b8daf6a94cfb4bc04c9ced0635e58c37",
+                "Checksum": "ec19938e44872c02c618190880a60fddbf2ea04ef8c09b0fd1bb246e5607880f"
             }
         ]
     }
