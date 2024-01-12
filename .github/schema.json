@@ -1,47 +1,47 @@
 {
-	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"title": "Verified mods manifesto",
-	"description": "A list of mods that can be automatically downloaded by the Northstar client.",
-	"type": "object",
-	"patternProperties": {
-		"^[A-Za-z._0-9]+": {
-			"type": "object",
-			"properties": {
-				"DependencyPrefix": {
-					"type": "string",
-					"pattern": "^([A-Za-z._0-9]+)-([A-Za-z._0-9]+)$"
-				},
-				"Repository": {
-					"type": "string",
-					"pattern": "^https://"
-				 },
-				"Versions": {
-					"type": "array",
-					"items": {
-						"type": "object",
-						"properties": {
-							"Version": {
-								"type": "string",
-								"pattern": "^(([0-9]+)\\.([0-9]+)\\.([0-9]+))$"
-							},
-							"Checksum": {
-								"type": "string",
-								"pattern": "^([0-9a-f]+)$",
-								"minLength": 64,
-								"maxLength": 64
-							},
-							"CommitHash": {
-								"type": "string",
-								"pattern": "^([0-9a-f]+)$",
-								"minLength": 40,
-								"maxLength": 40
-						  }
-						},
-						"required": [ "Version", "Checksum", "CommitHash" ]
-					}
-				}
-			},
-			"required": [ "DependencyPrefix", "Repository", "Versions" ]
-		}
-	}
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Verified mods manifesto",
+    "description": "A list of mods that can be automatically downloaded by the Northstar client.",
+    "type": "object",
+    "patternProperties": {
+        "^[A-Za-z._0-9]+": {
+            "type": "object",
+            "properties": {
+                "DependencyPrefix": {
+                    "type": "string",
+                    "pattern": "^([A-Za-z._0-9]+)-([A-Za-z._0-9]+)$"
+                },
+                "Repository": {
+                    "type": "string",
+                    "pattern": "^https://"
+                 },
+                "Versions": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Version": {
+                                "type": "string",
+                                "pattern": "^(([0-9]+)\\.([0-9]+)\\.([0-9]+))$"
+                            },
+                            "Checksum": {
+                                "type": "string",
+                                "pattern": "^([0-9a-f]+)$",
+                                "minLength": 64,
+                                "maxLength": 64
+                            },
+                            "CommitHash": {
+                                "type": "string",
+                                "pattern": "^([0-9a-f]+)$",
+                                "minLength": 40,
+                                "maxLength": 40
+                          }
+                        },
+                        "required": [ "Version", "Checksum", "CommitHash" ]
+                    }
+                }
+            },
+            "required": [ "DependencyPrefix", "Repository", "Versions" ]
+        }
+    }
 }
