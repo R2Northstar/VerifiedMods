@@ -20,5 +20,16 @@
                 "Checksum": "eef8ae5a88df68b249529f31713d0219b18391202dfeedc2d109936c729c571c"
             }
         ]
+    },
+    "HotPotato": {
+        "DependencyPrefix": "x3Karma-HotPotato",
+        "Repository": "https://github.com/x3Karma/HotPotato",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "CommitHash": "01fb15e22f62855cdcc2d87e3b52fa71d3401446",
+                "Checksum": "d83f39a63c0ab7d886d23605a7b3310d0cd4260c77159eb71c8cbccce963cec2"
+            }
+        ]
     }
 }
