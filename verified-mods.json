@@ -29,6 +29,11 @@
                 "Version": "1.0.0",
                 "CommitHash": "01fb15e22f62855cdcc2d87e3b52fa71d3401446",
                 "Checksum": "d83f39a63c0ab7d886d23605a7b3310d0cd4260c77159eb71c8cbccce963cec2"
+            },
+            {
+                "Version": "1.1.0",
+                "CommitHash": "72a1f00602e0643877688f065d0124e1f2397c5e",
+                "Checksum": "e2fa138cc22b7a576b2a5f0dbe7a489448edce331b06d9c5430abbc36ad41078"
             }
         ]
     }
