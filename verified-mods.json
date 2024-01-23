@@ -47,5 +47,16 @@
                 "Checksum": "e2fa138cc22b7a576b2a5f0dbe7a489448edce331b06d9c5430abbc36ad41078"
             }
         ]
+    },
+    "nyami.mp_brick": {
+        "DependencyPrefix": "YuM-mp_brick",
+        "Repository": "https://github.com/Nyami11/mp_brick",
+        "Versions": [
+            {
+                "Version": "1.0.1",
+                "CommitHash": "8d68840975c70f52fa7f63f83474d9a8a565ecef",
+                "Checksum": "b5d468122a5c2800b127c632a16dc8ef03e6b086f33c74a8bc38ea658c19ed0a"
+            }
+        ]
     }
 }
