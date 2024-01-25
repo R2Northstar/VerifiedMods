@@ -29,9 +29,9 @@ def verify_all_mod_versions():
             
             # Compare manifesto commit hash with repository hash
             if local_hash == distant_version['commit']['sha']:
-                print('  ✔️ v{}'.format(version['Version']))
+                print('\t✔️  v{}'.format(version['Version']))
             else:
-                sys.exit('  ❌ v{} (hash comparison failed)'.format(version['Version']))
+                sys.exit('\t❌  v{} (hash comparison failed)'.format(version['Version']))
 
 
 def retrieve_tag_info(tag_name, repository_url):
