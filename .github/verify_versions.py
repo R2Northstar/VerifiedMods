@@ -1,6 +1,7 @@
+import os
 import sys
 import unittest
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 import json
 
 def verify_all_mod_versions():
@@ -52,7 +53,13 @@ def retrieve_tag_info(tag_name, repository_url):
     i = 1
     while True:
         url = '{}?page={}'.format(repository_url, i)
-        response = urlopen(url)
+        req = Request(url)
+
+        token = os.getenv('GITHUB_TOKEN')
+        print("Using token {}", token)
+        req.add_header('authorization', 'Bearer {}'.format(token))
+
+        response = urlopen(req).read()
         tags_data = json.loads(response.read())
 
         # If page is empty, it means the tag couldn't be found
