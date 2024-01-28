@@ -5,6 +5,7 @@ jobs:
   manifest-checking:
     uses: ./.github/workflows/manifest-check.yml
   verify-mods-versions:
+    needs: [manifest-checking]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
