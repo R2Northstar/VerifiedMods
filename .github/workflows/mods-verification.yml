@@ -1,6 +1,9 @@
-name: Validate JSONs
-
-on: [push, pull_request]
+name: Mods verification
+on:
+  workflow_run:
+    workflows: ["Manifest check"]
+    types:
+      - completed
 
 jobs:
   verify-mods-versions:
