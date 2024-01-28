@@ -1,5 +1,5 @@
 name: Manifest check
-on: [pull_request]
+on: [workflow_call]  # allow this workflow to be called from other workflows
 
 jobs:
   check-for-tabs-in-json:

@@ -1,11 +1,9 @@
 name: Mods verification
-on:
-  workflow_run:
-    workflows: ["Manifest check"]
-    types:
-      - completed
+on: [push, pull_request]
 
 jobs:
+  manifest-checking:
+    uses: ./.github/workflows/manifest-check.yml
   verify-mods-versions:
     runs-on: ubuntu-latest
     steps:
