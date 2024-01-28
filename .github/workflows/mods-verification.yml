@@ -3,8 +3,10 @@ on: [push, pull_request]
 
 jobs:
   manifest-checking:
+    name: Manifest check
     uses: ./.github/workflows/manifest-check.yml
   verify-mods-versions:
+    name: Verify all mods
     needs: [manifest-checking]
     runs-on: ubuntu-latest
     steps:
