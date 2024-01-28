@@ -4,8 +4,8 @@ on: [push, pull_request]
 jobs:
   manifest-checking:
     name: Manifest check
-    uses: ./.github/workflows/subflows/manifest-check.yml
+    uses: ./.github/workflows/manifest-check.yml
   mods-verification:
     name: Mod verification
     needs: [manifest-checking]
-    uses: ./.github/workflows/subflows/mods-verification.yml
+    uses: ./.github/workflows/mods-verification.yml
