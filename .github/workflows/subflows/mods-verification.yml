@@ -1,13 +1,9 @@
 name: Mods verification
-on: [push, pull_request]
+on: [workflow_call]  # allow this workflow to be called from other workflows
 
 jobs:
-  manifest-checking:
-    name: Manifest check
-    uses: ./.github/workflows/manifest-check.yml
   verify-mods-versions:
-    name: Verify all mods
-    needs: [manifest-checking]
+    name: Try and fetch mod versions
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -20,6 +20,7 @@ jobs:
 
   verify-json-validation:
     name: Run JSON schema validation
+    needs: check-for-tabs-in-json
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
