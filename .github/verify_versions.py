@@ -23,14 +23,14 @@ def verify_all_mod_versions():
 
             # There should be only one matching version
             if len(matching_distant_versions) != 1:
-                sys.exit('  ❌ v{} (unknown distant version)'.format(version['Version']))
+                sys.exit('\t❌  v{} (unknown distant version)'.format(version['Version']))
             
             # Compare manifesto commit hash with repository hash
             distant_version = matching_distant_versions[0]
             if local_hash == distant_version['commit']['sha']:
-                print('  ✔️ v{}'.format(version['Version']))
+                print('\t✔️  v{}'.format(version['Version']))
             else:
-                sys.exit('  ❌ v{} (hash comparison failed)'.format(version['Version']))
+                sys.exit('\t❌  v{} (hash comparison failed)'.format(version['Version']))
 
 if __name__ == "__main__":
     verify_all_mod_versions()
