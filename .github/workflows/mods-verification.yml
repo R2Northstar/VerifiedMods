@@ -1,0 +1,16 @@
+name: Mods verification
+on: [workflow_call]  # allow this workflow to be called from other workflows
+
+jobs:
+  verify-mods-versions:
+    name: Try and fetch mod versions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Run mod checks
+        run: |
+          python .github/verify_versions.py
