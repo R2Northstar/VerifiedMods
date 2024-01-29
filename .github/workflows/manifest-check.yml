@@ -1,0 +1,31 @@
+name: Manifest check
+on: [workflow_call]  # allow this workflow to be called from other workflows
+
+jobs:
+  check-for-tabs-in-json:
+    name: Check for tabulations
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JSON files for tabs
+        run: |
+          set -e
+
+          for file in $(find . -type f -name '*.json'); do
+            if grep --perl-regexp --quiet '\t' "$file"; then
+              echo "Error: JSON file $file contains tabs."
+              exit 1
+            fi
+          done
+
+  verify-json-validation:
+    name: Run JSON schema validation
+    needs: check-for-tabs-in-json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate package.json against local schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+            file: 'verified-mods.json'
+            schema: '.github/schema.json'
