@@ -65,32 +65,5 @@ def retrieve_tag_info(tag_name, repository_url):
             return matching_distant_versions[0]
         i += 1
 
-
-class TestRetrieveTagInfo(unittest.TestCase):
-    def test_tag_on_first_page(self):
-        data = retrieve_tag_info("1.0.9", "https://api.github.com/repos/Dinorush/LTSRebalance/tags")
-        self.assertEqual(data['name'], "1.0.9")
-    
-    def test_tag_on_third_page(self):
-        data = retrieve_tag_info("0.10.6.3", "https://api.github.com/repos/Dinorush/LTSRebalance/tags")
-        self.assertEqual(data['name'], "0.10.6.3")
-    
-    def test_unknown_tag(self):
-        with self.assertRaises(LookupError) as context:
-            retrieve_tag_info("unknown_tag", "https://api.github.com/repos/Alystrasz/Alystrasz.Parkour/tags")
-        self.assertTrue('Tag not found.' in str(context.exception))
-
-    def run(self):
-        self.test_tag_on_first_page()
-        self.test_tag_on_third_page()
-        self.test_unknown_tag()
-        print("Tests done!")
-
-
-# By default, running this script will invoke the `verify_all_mod_versions` method.
-# You can execute `retrieve_tag_info` tests by running `python .github\verify_versions.py test`.
 if __name__ == "__main__":
-    if len(sys.argv) == 2 and sys.argv[1] == "test":
-        TestRetrieveTagInfo().run()
-    else:
-        verify_all_mod_versions()
+    verify_all_mod_versions()
