@@ -13,4 +13,4 @@ jobs:
           python-version: 3.11
       - name: Run mod checks
         run: |
-          python .github/verify_versions.py
+          python tools/verify_versions.py
