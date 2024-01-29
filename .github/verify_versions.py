@@ -6,17 +6,19 @@ import json
 f = open('verified-mods.json')
 manifesto = json.load(f)
 
-for mod in manifesto:
+# Check verified mods on Thunderstore
+manifesto_thunderstore = manifesto['thunderstore']
+for mod in manifesto_thunderstore:
     print('Verifying "{}":'.format(mod))
 
     # Build GitHub API link and fetch distant tags list
-    words = manifesto[mod]['Repository'].split('/')
+    words = manifesto_thunderstore[mod]['Repository'].split('/')
     tags_url = "https://api.github.com/repos/{}/{}/tags".format(words[-2], words[-1])
     response = urlopen(tags_url) 
     tags_data = json.loads(response.read())
 
     # Check all mod versions one-by-one
-    for version in manifesto[mod]['Versions']:
+    for version in manifesto_thunderstore[mod]['Versions']:
         local_hash = version['CommitHash']
         matching_distant_versions = list(filter(lambda v: v['name'] == version['Version'], tags_data))
 
