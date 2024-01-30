@@ -1,5 +1,4 @@
 import sys
-import unittest
 from urllib.request import urlopen
 import json
 
