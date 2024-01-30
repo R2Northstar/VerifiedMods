@@ -16,11 +16,11 @@ def verify_all_mod_versions():
     manifesto = json.load(f)
 
     for mod in manifesto:
-        print('Verifying "{}":'.format(mod))
+        print(f'Verifying "{mod}":')
 
         # Build GitHub API link
         words = manifesto[mod]['Repository'].split('/')
-        tags_url = "https://api.github.com/repos/{}/{}/tags".format(words[-2], words[-1])
+        tags_url = f"https://api.github.com/repos/{words[-2]}/{words[-1]}/tags"
 
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
@@ -29,9 +29,9 @@ def verify_all_mod_versions():
             
             # Compare manifesto commit hash with repository hash
             if local_hash == distant_version['commit']['sha']:
-                print('\t✔️  v{}'.format(version['Version']))
+                print(f"\t✔️  v{version['Version']}")
             else:
-                sys.exit('\t❌  v{} (hash comparison failed)'.format(version['Version']))
+                sys.exit(f"\t❌  v{version['Version']} (hash comparison failed)")
 
 
 def retrieve_tag_info(tag_name, repository_url):
@@ -50,7 +50,7 @@ def retrieve_tag_info(tag_name, repository_url):
 
     i = 1
     while True:
-        url = '{}?page={}'.format(repository_url, i)
+        url = f'{repository_url}?page={i}'
         response = urlopen(url)
         tags_data = json.loads(response.read())
 
