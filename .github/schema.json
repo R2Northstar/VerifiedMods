@@ -31,9 +31,13 @@
                                 "pattern": "^([0-9a-f]+)$",
                                 "minLength": 40,
                                 "maxLength": 40
-                          }
+                            },
+                            "DownloadLink": {
+                                "type": "string",
+                                "pattern": "^https://"
+                            }
                         },
-                        "required": [ "Version", "Checksum", "CommitHash" ]
+                        "required": [ "Version", "Checksum", "CommitHash", "DownloadLink" ]
                     }
                 }
             },
