@@ -7,10 +7,6 @@
         "^[A-Za-z._0-9]+": {
             "type": "object",
             "properties": {
-                "DependencyPrefix": {
-                    "type": "string",
-                    "pattern": "^([A-Za-z._0-9]+)-([A-Za-z._0-9]+)$"
-                },
                 "Repository": {
                     "type": "string",
                     "pattern": "^https://"
