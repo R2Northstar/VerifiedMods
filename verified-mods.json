@@ -6,7 +6,8 @@
                 "Version": "0.0.5",
                 "CommitHash": "f27b8f1f05d5278aa8f47ead2d9e70f39f274173",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/odds-s2space-0.0.5.zip",
-                "Checksum": "670987e07806e8dffcb591bad8724f29abc18d9baa304d9ab4fae7804bd86bc2"
+                "Checksum": "670987e07806e8dffcb591bad8724f29abc18d9baa304d9ab4fae7804bd86bc2",
+                "Platform": "thunderstore"
             }
         ]
     },
@@ -17,7 +18,8 @@
                 "Version": "0.2.1",
                 "CommitHash": "0eca593ac1666aeeaa061a5c545d917d47d6d113",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Alystrasz-Parkour-0.2.1.zip",
-                "Checksum": "eef8ae5a88df68b249529f31713d0219b18391202dfeedc2d109936c729c571c"
+                "Checksum": "eef8ae5a88df68b249529f31713d0219b18391202dfeedc2d109936c729c571c",
+                "Platform": "thunderstore"
             }
         ]
     },
@@ -28,7 +30,8 @@
                 "Version": "1.0.9",
                 "CommitHash": "f8353281b8daf6a94cfb4bc04c9ced0635e58c37",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Dinorush-LTS_Rebalance-1.0.9.zip",
-                "Checksum": "ec19938e44872c02c618190880a60fddbf2ea04ef8c09b0fd1bb246e5607880f"
+                "Checksum": "ec19938e44872c02c618190880a60fddbf2ea04ef8c09b0fd1bb246e5607880f",
+                "Platform": "thunderstore"
             }
         ]
     },
@@ -39,13 +42,15 @@
                 "Version": "1.0.0",
                 "CommitHash": "01fb15e22f62855cdcc2d87e3b52fa71d3401446",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/x3Karma-HotPotato-1.0.0.zip",
-                "Checksum": "d83f39a63c0ab7d886d23605a7b3310d0cd4260c77159eb71c8cbccce963cec2"
+                "Checksum": "d83f39a63c0ab7d886d23605a7b3310d0cd4260c77159eb71c8cbccce963cec2",
+                "Platform": "thunderstore"
             },
             {
                 "Version": "1.1.0",
                 "CommitHash": "72a1f00602e0643877688f065d0124e1f2397c5e",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/x3Karma-HotPotato-1.1.0.zip",
-                "Checksum": "e2fa138cc22b7a576b2a5f0dbe7a489448edce331b06d9c5430abbc36ad41078"
+                "Checksum": "e2fa138cc22b7a576b2a5f0dbe7a489448edce331b06d9c5430abbc36ad41078",
+                "Platform": "thunderstore"
             }
         ]
     },
@@ -56,7 +61,8 @@
                 "Version": "1.0.2",
                 "CommitHash": "38ff920639dc6556a039808770b5470122494a47",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Nyami11-mp_brick-1.0.2.zip",
-                "Checksum": "6eeae287c4cdd7b79e07366828940282952b82738a6dd97c3cf3ad35e0858d9f"
+                "Checksum": "6eeae287c4cdd7b79e07366828940282952b82738a6dd97c3cf3ad35e0858d9f",
+                "Platform": "thunderstore"
             }
         ]
     }

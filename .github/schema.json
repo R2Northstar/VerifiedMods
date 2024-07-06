@@ -35,6 +35,9 @@
                             "DownloadLink": {
                                 "type": "string",
                                 "pattern": "^https://"
+                            },
+                            "Platform": {
+                                "enum": [ "thunderstore" ]
                             }
                         },
                         "required": [ "Version", "Checksum", "CommitHash", "DownloadLink" ]
