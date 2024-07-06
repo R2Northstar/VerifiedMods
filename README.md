@@ -37,7 +37,6 @@ To avoid preventing users connecting to your server requiring a mod that's not b
 
 For your mod to be successfully verified, it MUST follow the following set of rules:
 * **do not embed malicious code (obviously)**: your mod is going to be downloaded to people's computers, so it shouldn't do something nasty (*e.g.* mining some cryptos without users' knowledge);
-* **follow semantic versioning**: when updating your mod, you should update its version accordingly: increase patch version for small fixes, minor version for new compatible features, major version for breaking changes. Please read [semver.org](https://semver.org/) for more details;
 * **source code is public**: your mod's Thunderstore webpage should display a link to your source code repository;
 * **Thunderstore upload is automatic**: we don't want people to manually upload mods on Thunderstore since they could induce malicious code that's not in source code repository; we recommand you to use the [AnActualEmerald mod template](https://github.com/GreenTF/NSModTemplate), which integrates a continuous integration job that will automatically build your mod and upload it to Thunderstore each time you create a GitHub release;
 * **verified dependencies**: if your mod depends on other mods, they're gonna be downloaded to people's computers too, so they have to be verified as well.
@@ -79,7 +78,7 @@ Wanna help us verify mods? Cool! Here's how to do it:
   * Ensure there's a link to source code repository;
   * Ensure packages are automatically uploaded to Thunderstore.
 2. Download Thunderstore zip archive:
-  * Ensure semver is respected (*i.e.* mod version is correctly updated);
+  * Ensure mod version is correctly updated compared to previous submitted version;
   * Browse all code for malicious stuff.
 3. In JSON document update:
   * Check Thunderstore prefix is correct (must equal "Dependency string" on Thunderstore webpage without version information);
