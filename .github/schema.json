@@ -41,7 +41,7 @@
                     }
                 }
             },
-            "required": [ "DependencyPrefix", "Repository", "Versions" ]
+            "required": [ "Repository", "Versions" ]
         }
     }
 }
