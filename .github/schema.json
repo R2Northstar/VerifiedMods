@@ -7,6 +7,10 @@
         "^[A-Za-z._0-9]+": {
             "type": "object",
             "properties": {
+                "DependencyPrefix": {
+                    "type": "string",
+                    "pattern": "^([A-Za-z._0-9]+)-([A-Za-z._0-9]+)$"
+                },
                 "Repository": {
                     "type": "string",
                     "pattern": "^https://"
@@ -31,20 +35,13 @@
                                 "pattern": "^([0-9a-f]+)$",
                                 "minLength": 40,
                                 "maxLength": 40
-                            },
-                            "DownloadLink": {
-                                "type": "string",
-                                "pattern": "^https://"
-                            },
-                            "Platform": {
-                                "enum": [ "thunderstore" ]
-                            }
+                          }
                         },
-                        "required": [ "Version", "Checksum", "CommitHash", "DownloadLink" ]
+                        "required": [ "Version", "Checksum", "CommitHash" ]
                     }
                 }
             },
-            "required": [ "Repository", "Versions" ]
+            "required": [ "DependencyPrefix", "Repository", "Versions" ]
         }
     }
 }
