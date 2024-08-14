@@ -32,6 +32,17 @@
             }
         ]
     },
+    "GeckoEidechse.Headhunter": {
+        "DependencyPrefix": "GeckoEidechse-Headhunter",
+        "Repository": "https://github.com/GeckoEidechse/Headhunter",
+        "Versions": [
+            {
+                "Version": "0.0.4",
+                "CommitHash": "2f0f5f7f9873f6738a92a9e3b39ce637efd727d6",
+                "Checksum": "6c0784eac4f7318cac786a29b9d0cc584b03ad55b2810d4e73794fd099e821f2"
+            }
+        ]
+    },
     "HotPotato": {
         "DependencyPrefix": "x3Karma-HotPotato",
         "Repository": "https://github.com/x3Karma/HotPotato",
