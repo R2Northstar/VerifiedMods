@@ -1,5 +1,5 @@
 {
-    "cat_or_not.HeadhunterReupload": {
+    "HeadhunterReupload": {
         "DependencyPrefix": "cat_or_not-HeadhunterReupload",
         "Repository": "https://github.com/catornot/Headhunter",
         "Versions": [
