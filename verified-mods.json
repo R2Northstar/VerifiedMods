@@ -1,4 +1,15 @@
 {
+    "cat_or_not.HeadhunterReupload": {
+        "DependencyPrefix": "cat_or_not-HeadhunterReupload",
+        "Repository": "https://github.com/catornot/Headhunter",
+        "Versions": [
+            {
+                "Version": "0.0.4",
+                "CommitHash": "53a1c2981d2dcaa18c835451a20056ec76888400",
+                "Checksum": "4dc889ea5ab8bb5539024dc3923d15fb1407a1b05e996e06c56563846d7bd359"
+            }
+        ]
+    },
     "Odd.s2space": {
         "Repository": "https://github.com/uniboi/s2space",
         "Versions": [
