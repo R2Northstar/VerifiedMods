@@ -15,5 +15,9 @@ class TestRetrieveTagInfo(unittest.TestCase):
             verify_versions.retrieve_tag_info("unknown_tag", "https://api.github.com/repos/Alystrasz/Alystrasz.Parkour/tags")
         self.assertTrue('Tag not found.' in str(context.exception))
 
+class TestModVerification(unittest.TestCase):
+    def test_verification(self):
+        self.assertTrue(verify_versions.verify_all_mod_versions())
+
 if __name__ == "__main__":
     unittest.main()
