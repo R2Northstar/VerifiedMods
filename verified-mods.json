@@ -100,4 +100,16 @@
             }
         ]
     }
+        "Akinasu666-ServerSyncpatch": {
+        "Repository": "https://github.com/thisisyoursus/Akinasu666-ServerSyncpatch",
+        "Versions": [
+            {
+                "Version": "1.0.8",
+                "CommitHash": "38ff920639dc6556a039808770b5470122494a47", // TODO WHERE IS COMMITHASH???
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Nyami11-mp_brick-1.0.2.zip", // TODO WHERE DOWNLOADLINK???
+                "Checksum": "1e1ac3b885f446f69b1015a9d04961c11bad6e4ad46d788ab06834869bdf5182",
+                "Platform": "thunderstore"
+            }
+        ]
+    }
 }
