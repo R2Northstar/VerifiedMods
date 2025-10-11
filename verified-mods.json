@@ -104,10 +104,10 @@
         "Repository": "https://github.com/thisisyoursus/Akinasu666-ServerSyncpatch",
         "Versions": [
             {
-                "Version": "1.0.8",
-                "CommitHash": "236225bde49eb72b20e4b19f9410ae4bfcd930e1",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Akinasu666-Akinasu666Serversyncpatch-1.0.8.zip",
-                "Checksum": "1e1ac3b885f446f69b1015a9d04961c11bad6e4ad46d788ab06834869bdf5182",
+                "Version": "1.0.9",
+                "CommitHash": "be053baec3fa59a1ed6915033e9ae9daf351acbf",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Akinasu666-Akinasu666Serversyncpatch-1.0.9.zip",
+                "Checksum": "10772f2d5a85448b4a2a4b0f9390a9de2e9c27c2514ee3aeaecdfd6330d747ad",
                 "Platform": "thunderstore"
             }
         ]
