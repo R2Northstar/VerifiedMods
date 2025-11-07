@@ -12,6 +12,19 @@
             }
         ]
     },
+    "cat_or_not.AmpedMobilepoints": {
+        "DependencyPrefix": "cat_or_not-AmpedMobilepoints",
+        "Repository": "https://github.com/catornot/AmpedMobilepoints",
+        "Versions": [
+            {
+                "Version": "0.0.3",
+                "CommitHash": "13f285a1c7843441b7245eeeafc0e90ea01259c2",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.3.zip",
+                "Checksum": "ab0fbd90132190fad2e5a6bfdd649fb15ef4de544e1a309fec1b890218354bf2",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
     "Odd.s2space": {
         "Repository": "https://github.com/uniboi/s2space",
         "Versions": [
