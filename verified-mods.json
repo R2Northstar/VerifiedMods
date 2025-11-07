@@ -1,17 +1,4 @@
 {
-    "GeckoEidechse.Headhunter": {
-        "DependencyPrefix": "cat_or_not-HeadhunterReupload",
-        "Repository": "https://github.com/catornot/HeadhunterReupload",
-        "Versions": [
-            {
-                "Version": "0.0.4",
-                "CommitHash": "53a1c2981d2dcaa18c835451a20056ec76888400",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-HeadhunterReupload-0.0.4.zip",
-                "Checksum": "4dc889ea5ab8bb5539024dc3923d15fb1407a1b05e996e06c56563846d7bd359",
-                "Platform": "thunderstore"
-            }
-        ]
-    },
     "cat_or_not.AmpedMobilepoints": {
         "DependencyPrefix": "cat_or_not-AmpedMobilepoints",
         "Repository": "https://github.com/catornot/AmpedMobilepoints",
@@ -21,6 +8,19 @@
                 "CommitHash": "13f285a1c7843441b7245eeeafc0e90ea01259c2",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.3.zip",
                 "Checksum": "ab0fbd90132190fad2e5a6bfdd649fb15ef4de544e1a309fec1b890218354bf2",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+    "GeckoEidechse.Headhunter": {
+        "DependencyPrefix": "cat_or_not-HeadhunterReupload",
+        "Repository": "https://github.com/catornot/HeadhunterReupload",
+        "Versions": [
+            {
+                "Version": "0.0.4",
+                "CommitHash": "53a1c2981d2dcaa18c835451a20056ec76888400",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-HeadhunterReupload-0.0.4.zip",
+                "Checksum": "4dc889ea5ab8bb5539024dc3923d15fb1407a1b05e996e06c56563846d7bd359",
                 "Platform": "thunderstore"
             }
         ]
