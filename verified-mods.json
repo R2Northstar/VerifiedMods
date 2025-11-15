@@ -4,10 +4,10 @@
         "Repository": "https://github.com/catornot/AmpedMobilepoints",
         "Versions": [
             {
-                "Version": "0.0.4",
-                "CommitHash": "b2682e29123f53dc9868085d1d7a7505341de640",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.4.zip",
-                "Checksum": "99acef9b4436d1bb5ccf7e0b81ba55ae6bbcd47e72f46d799b566946e94fe00d",
+                "Version": "0.0.5",
+                "CommitHash": "b640e0fbfa58a5b9254de44a7510f31810893fcd",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.5.zip",
+                "Checksum": "9f697ad3963381cf2d25571a18a151f8db9a091320801b94b1c9b49fbd0a0948",
                 "Platform": "thunderstore"
             }
         ]
