@@ -117,10 +117,10 @@
         "Repository": "https://github.com/Berdox/Chroma-Null-Surf",
         "Versions": [
             {
-                "Version": "1.0.17",
-                "CommitHash": "784c0231bff1bf3bd6c43bb92e2d0dbf538d4c85",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-MP_Chroma_Null_Surf-1.0.17.zip",
-                "Checksum": "f70fc5ab2eba09a178ef0596b5b4eeba387663bc32fcb2548a207825128863fc",
+                "Version": "1.1.0",
+                "CommitHash": "9db0ef783c2bb543ce218c15fae0fc722fd5ca9e",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-MP_Chroma_Null_Surf-1.1.0.zip",
+                "Checksum": "51a4a5e6c89137924517098e8b41e571ba09c25ee08f4e28118afbed717a4583",
                 "Platform": "thunderstore"
             }
         ]
