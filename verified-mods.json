@@ -112,5 +112,41 @@
                 "Platform": "thunderstore"
             }
         ]
-    }
+    },
+    "Berdox.mp_chroma_null_surf": {
+        "Repository": "https://github.com/Berdox/Chroma-Null-Surf",
+        "Versions": [
+            {
+                "Version": "1.0.17",
+                "CommitHash": "784c0231bff1bf3bd6c43bb92e2d0dbf538d4c85",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-MP_Chroma_Null_Surf-1.0.17.zip",
+                "Checksum": "f70fc5ab2eba09a178ef0596b5b4eeba387663bc32fcb2548a207825128863fc",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+    "Berdox.surf_game_mode": {
+        "Repository": "https://github.com/Berdox/Surf-Game-Mode",
+        "Versions": [
+            {
+                "Version": "1.1.6",
+                "CommitHash": " fcc28a9f844cb47a91de87e7b1a8237cfb19dd3b",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-Surf_Game_Mode-1.1.6.zip",
+                "Checksum": "8c8693c7b9771983bcce8d1e513fc20bbee065d54e05b70408566e3fb374139c",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+    "Berdox.gauntlet_framework": {
+        "Repository": "https://github.com/Berdox/Gauntlet-Framework",
+        "Versions": [
+            {
+                "Version": "0.5.6",
+                "CommitHash": "18f4489d08f98a0aca86ce153d233487f20aa93d",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-Gauntlet_Framework-0.5.6.zip",
+                "Checksum": "3952afded75824516255992df42ed1b3effba134d9117114a4c320835f324a88",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
 }
