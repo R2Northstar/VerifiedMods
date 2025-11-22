@@ -117,10 +117,10 @@
         "Repository": "https://github.com/CodyIBrealey/mp_sanctuary",
         "Versions": [
             {
-                "Version": "0.0.1",
-                "CommitHash": "8d40c042cdfc34704b6a66805837f686b94bf7ef",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_sanctuary-0.0.1.zip",
-                "Checksum": "c28b06d19e68369f92932b4a3d1b238dea4a9375388f1b81bb6bb6ddba519083",
+                "Version": "0.0.2",
+                "CommitHash": "fc1fe16012c06565fe7038fae704edbce6310161",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_sanctuary-0.0.2.zip",
+                "Checksum": "4f41921697297592920405da1575fb97d165079e6f5587e0fd4a65aba3125196",
                 "Platform": "thunderstore"
             }
         ]
