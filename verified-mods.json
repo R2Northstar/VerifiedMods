@@ -112,5 +112,17 @@
                 "Platform": "thunderstore"
             }
         ]
+    },
+    "skrubslayer.mp_sanctuary": {
+        "Repository": "https://github.com/CodyIBrealey/mp_sanctuary",
+        "Versions": [
+            {
+                "Version": "0.0.3",
+                "CommitHash": "588929c8119a9fb25afb0686df95334dd4826ae9",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_sanctuary-0.0.3.zip",
+                "Checksum": "58c59218daf027b1f87632bd0d48ada703878baf35d868978377184a9ea2d1a8",
+                "Platform": "thunderstore"
+            }
+        ]
     }
 }
