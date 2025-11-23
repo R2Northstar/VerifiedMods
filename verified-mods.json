@@ -112,7 +112,7 @@
                 "Platform": "thunderstore"
             }
         ]
-    }
+    },
     "skrubslayer.mp_sanctuary": {
         "Repository": "https://github.com/CodyIBrealey/mp_sanctuary",
         "Versions": [
