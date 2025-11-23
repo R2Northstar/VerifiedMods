@@ -145,6 +145,7 @@
                 "CommitHash": "18f4489d08f98a0aca86ce153d233487f20aa93d",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Berdox-Gauntlet_Framework-0.5.6.zip",
                 "Checksum": "3952afded75824516255992df42ed1b3effba134d9117114a4c320835f324a88",
+                "Platform": "thunderstore"
             }
         ]
     },
