@@ -160,5 +160,17 @@
                 "Platform": "thunderstore"
             }
         ]
+    },
+    "Neko's Onslaught": {
+        "Repository": "https://github.com/ASillyNeko/Onslaught",
+        "Versions": [
+            {
+                "Version": "1.0.3",
+                "CommitHash": "bb777488c838953e0950c1a35f7b6b75b1a0552f",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.3.zip",
+                "Checksum": "5ea95f8a04abfb453069577f12408cb5f89f1ccb665dcc5ef858392f26eadf69",
+                "Platform": "thunderstore"
+            }
+        ]
     }
 }
