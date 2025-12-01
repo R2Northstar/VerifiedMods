@@ -177,6 +177,13 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.4.zip",
                 "Checksum": "888291380d3df39536cc8939499b327b5815fcabddc7412bcef3d1020c4cbdfb",
                 "Platform": "thunderstore"
+            },
+            {
+                "Version": "1.0.5",
+                "CommitHash": "756c0237a146049c64f1d44405396213ef21e2dd",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.5.zip",
+                "Checksum": "4125ccb1fb92b9ce876cc443356335c88bc566b8bd0db83cd1634defbc8fab1d",
+                "Platform": "thunderstore"
             }
         ]
     }
