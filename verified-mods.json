@@ -165,31 +165,10 @@
         "Repository": "https://github.com/ASillyNeko/Onslaught",
         "Versions": [
             {
-                "Version": "1.0.3",
-                "CommitHash": "bb777488c838953e0950c1a35f7b6b75b1a0552f",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.3.zip",
-                "Checksum": "5ea95f8a04abfb453069577f12408cb5f89f1ccb665dcc5ef858392f26eadf69",
-                "Platform": "thunderstore"
-            },
-            {
-                "Version": "1.0.4",
-                "CommitHash": "aa03645356e6f1a9acb24716a075fd818f0c371e",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.4.zip",
-                "Checksum": "888291380d3df39536cc8939499b327b5815fcabddc7412bcef3d1020c4cbdfb",
-                "Platform": "thunderstore"
-            },
-            {
-                "Version": "1.0.5",
-                "CommitHash": "756c0237a146049c64f1d44405396213ef21e2dd",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.5.zip",
-                "Checksum": "4125ccb1fb92b9ce876cc443356335c88bc566b8bd0db83cd1634defbc8fab1d",
-                "Platform": "thunderstore"
-            },
-            {
-                "Version": "1.0.6",
-                "CommitHash": "f69411e14ea89d96717fa4db5b02e492258bbe9a",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.6.zip",
-                "Checksum": "04c0f4e82aaec744edd4a84bf7a6b15233ac9456b873508d2bfd0a667598d035",
+                "Version": "1.0.7",
+                "CommitHash": "a2def74fec4b2c5064f371a4ad088e7c541ef6cf",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.7.zip",
+                "Checksum": "0681c30a62c90fa8a8c9781ae6b8c2b7417a1ceeb52219f1dfa2082d4e4e66a4",
                 "Platform": "thunderstore"
             }
         ]
