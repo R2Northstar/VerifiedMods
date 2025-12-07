@@ -165,10 +165,10 @@
         "Repository": "https://github.com/ASillyNeko/Onslaught",
         "Versions": [
             {
-                "Version": "1.0.8",
-                "CommitHash": "e654f37aff817114a482f41f54dd756035d3d5fb",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.8.zip",
-                "Checksum": "eb4d7609080b2522b2c0a76543d3c96a6c8704fd4bb0ff5569caee022714f579",
+                "Version": "1.0.9",
+                "CommitHash": "8476e0284456265cbc0f82e8773cf811c510ca66",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/ASillyNeko-Onslaught-1.0.9.zip",
+                "Checksum": "2a36e9652ad4baed3cd3c3dad668c119fdb47424684f3eb0285680ee58f4a707",
                 "Platform": "thunderstore"
             }
         ]
