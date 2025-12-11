@@ -172,5 +172,17 @@
                 "Platform": "thunderstore"
             }
         ]
+    },
+    "Titanframework": {
+        "Repository": "https://github.com/JMM889901/peepee.TitanFramework",
+        "Versions": [
+            {
+                "Version": "2.4.4",
+                "CommitHash": "a9c1c7e33f350413f208cb872319c89d05ae4fc8",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/The_Peepeepoopoo_man-Titanframework-2.4.4.zip",
+                "Checksum": "7bdecb0601ee0527f0ab2de0dbe80d0b7fbd1aa0df34bd59b1d6ae1864666bb0",
+                "Platform": "thunderstore"
+            }
+        ]
     }
 }
