@@ -173,7 +173,7 @@
             }
         ]
     },
-    "fourthvolt 3030repeater": {
+    "3030 Repeater Apex port": {
         "Repository": "https://github.com/EM4Volts/Apex-Legends-3030-r2",
         "Versions": [
             {
