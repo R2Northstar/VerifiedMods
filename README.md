@@ -11,7 +11,7 @@ Verified mods are listed in the present `verified-mods.json` file, using followi
   * "Versions" contains a list of version (for the current mod) that have been verified.
 
 Each version contains the following attributes:
-* "Version" is the current version identifier (using the `x.y.z` format);s
+* "Version" is the current version identifier (using the `x.y.z` format);
 * "CommitHash" is the Git commit associated to the current version;
 * "DownloadLink" is the direct download link of the version archive;
 * "Checksum" is the SHA256 hash of the version archive;
