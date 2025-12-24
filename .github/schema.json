@@ -37,7 +37,7 @@
                                 "pattern": "^https://"
                             },
                             "Platform": {
-                                "enum": [ "thunderstore" "modworkshop" ]
+                                "enum": [ "thunderstore", "modworkshop" ]
                             }
                         },
                         "required": [ "Version", "Checksum", "CommitHash", "DownloadLink" ]
