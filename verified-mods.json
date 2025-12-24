@@ -172,5 +172,17 @@
                 "Platform": "thunderstore"
             }
         ]
+    },
+    "3030 Repeater Apex port": {
+        "Repository": "https://github.com/EM4Volts/Apex-Legends-3030-r2",
+        "Versions": [
+            {
+                "Version": "0.0.2",
+                "CommitHash": "02b6955b35acc7dc270a3fe789ef7336a7782ed4",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/54736_156759_K6idAK5IuxrLUeNmwLWhTMZJypqryM0QxaisSDDM.3030repeater.zip?filename=em4v.3030repeater.zip",
+                "Checksum": "ad06ac2f5689ea5a699d4c7c69530bc2f1278a1ba4cf132da51ac82be7d34483",
+                "Platform": "modworkshop"
+            }
+        ]
     }
 }
