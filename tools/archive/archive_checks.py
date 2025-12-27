@@ -1,0 +1,52 @@
+import hashlib
+import json5
+import os
+import re
+import sys
+import urllib.request
+import zipfile
+
+def fetch_archive(url, destination):
+    urllib.request.urlretrieve(url, destination)
+
+def check_archive(archive_name, expected_hash) -> bool:
+    h = hashlib.sha256()
+    with open(archive_name, 'rb') as fh:
+        while True:
+            data = fh.read(4096)
+            if len(data) == 0:
+                break
+            else:
+                h.update(data)
+
+    if expected_hash != h.hexdigest():
+        sys.exit(f'  ❌ Checksum comparison failed (expecting "{expected_hash}", was "{h.hexdigest()}").')
+    print('  ✔️  Valid checksum.')
+
+def check_mod_name(archive_name, expected_name) -> bool:
+    zip = zipfile.ZipFile(archive_name)
+    mod_manifest_files = list(filter(lambda f: os.path.basename(f) == 'mod.json', zip.namelist()))
+
+    # We don't handle archives with multiple mods for now
+    if len(mod_manifest_files) > 1:
+        sys.exit('  ❌ Multiple mod.json files were found in the archive, exiting.')
+
+    # Compare JSON name and verified-mods.json name
+    data = zip.read(mod_manifest_files[0])
+    manifest = json5.loads(data)
+    if manifest['Name'] != expected_name:
+        sys.exit(f'  ❌ Name comparison failed (expecting "{expected_name}", was "{manifest['Name']}").')
+    print('  ✔️  Name comparison valid.')
+
+
+if __name__ == "__main__":
+    # tests
+    url = "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.7.zip"
+    checksum = "b411368b17df6ab8b4179c121b0a9452cd5a88a50c0fc9fd790fda882b2c5189"
+    name = "cat_or_not.AmpedMobilepoint"
+    archive_name = "archive.zip"
+
+    # methods
+    fetch_archive(url, archive_name)
+    check_archive(archive_name, checksum)
+    check_mod_name(archive_name, name)
