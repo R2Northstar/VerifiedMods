@@ -19,18 +19,6 @@ Each version contains the following attributes:
 
 ## How to submit a mod for verification
 
-Before starting to submit your mod for verification, please ensure that it is a valid candidate to mod verification! Only mods required by a server to be client-side can be verified.
-
-*Good examples:*
-* Maps;
-* Gamemodes.
-
-*Bad examples:*
-* Skins (only required client-side);
-* Audio overrides;
-* UI changes;
-* Custom skyboxes.
-
 ##### Note before you start
 
 To avoid preventing users connecting to your server requiring a mod that's not been verified yet, we recommand you to update your mod following these steps (let's consider that your server requires a mod with version v0.1.0):
