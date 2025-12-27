@@ -24,14 +24,18 @@ def verify_all_mod_versions():
 
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
+            print(f'  -> v{version['Version']}:')
+
+            ## Check whether commit exists
             distant_version = retrieve_tag_info(version['Version'], tags_url)
             local_hash = version['CommitHash']
 
-            # Compare manifesto commit hash with repository hash
+            ### Compare manifesto commit hash with repository hash
             if local_hash == distant_version['commit']['sha']:
-                print(f"\t✔️  v{version['Version']}")
+                print(f"  Commit hash: ✔️")
             else:
-                sys.exit(f"\t❌  v{version['Version']} (hash comparison failed)")
+                sys.exit(f"  Commit hash: ❌ (hash comparison failed)")
+        print()
 
 
 def retrieve_tag_info(tag_name, repository_url):
