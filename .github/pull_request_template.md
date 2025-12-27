@@ -12,5 +12,5 @@
 ## Mod description
 <YOUR_MODS_DESCRIPTION_HERE>
 
-## Thunderstore link
-<YOUR_MODS_THUNDERSTORE_WEBPAGE_LINK_HERE>
+## Mod webpage link
+<YOUR_MODS_WEBPAGE_LINK_HERE>
