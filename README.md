@@ -16,3 +16,14 @@ Each version contains the following attributes:
 * "DownloadLink" is the direct download link of the version archive;
 * "Checksum" is the SHA256 hash of the version archive;
 * "Platform" is the origin of the version ("thunderstore" is currently the only supported option).
+
+---
+
+Submitting a mod?
+
+- [How to submit a mod for verification](./docs/mod_submission.md)
+- [Check that your submission is valid](./docs/mod_check.md)
+
+Accepting new mods?
+
+- [How to review mod verification requests](./docs/mod_verification.md)
