@@ -2,14 +2,12 @@
 
 Wanna help us verify mods? Cool! Here's how to do it:
 
-1. Check the mod's Thunderstore webpage:
-  * Ensure there's a link to source code repository;
-  * Ensure packages are automatically uploaded to Thunderstore.
-2. Download Thunderstore zip archive:
+1. Check the mod's webpage:
+  * Ensure there's a link to source code repository.
+2. Download zip archive:
   * Ensure mod version is correctly updated compared to previous submitted version;
   * Browse all code for malicious stuff.
 3. In JSON document update:
-  * Check Thunderstore prefix is correct (must equal "Dependency string" on Thunderstore webpage without version information);
   * Manually checksum archive, and ensure hash is the same with the one included in the PR;
   * Ensure "CommitHash" value is a valid hash on the mod's repository.
 

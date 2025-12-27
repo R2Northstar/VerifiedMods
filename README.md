@@ -15,7 +15,7 @@ Each version contains the following attributes:
 * "CommitHash" is the Git commit associated to the current version;
 * "DownloadLink" is the direct download link of the version archive;
 * "Checksum" is the SHA256 hash of the version archive;
-* "Platform" is the origin of the version ("thunderstore" is currently the only supported option).
+* "Platform" is the origin of the version, used by the launcher to know how to install downloaded mod.
 
 ---
 
