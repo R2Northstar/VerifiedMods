@@ -35,18 +35,21 @@ def verify_all_mod_versions():
             if local_hash == distant_version['commit']['sha']:
                 print(f"  • Commit hash: ✔️")
             else:
-                sys.exit(f"  • Commit hash: ❌ (hash comparison failed)")
+                print(f"  • Commit hash: ❌ (hash comparison failed)")
+                sys.exit(1)
 
             ## Check archive checksum
             dest = '/tmp/archive.zip'
             archive_checks.fetch_archive(version['DownloadLink'], dest)
             if not archive_checks.check_archive(dest, version['Checksum']):
-                sys.exit(f'  • Checksum comparison: ❌')
+                print(f'  • Checksum comparison: ❌')
+                sys.exit(2)
             print(f"  • Checksum comparison: ✔️")
 
             ## Check mod name
             if not archive_checks.check_mod_name(dest, mod):
-                sys.exit(f'  • Name comparison: ❌')
+                print(f'  • Name comparison: ❌')
+                sys.exit(3)
             print('  • Name comparison: ✔️')
 
         print("")

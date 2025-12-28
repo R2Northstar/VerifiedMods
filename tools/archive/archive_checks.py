@@ -31,12 +31,13 @@ def check_mod_name(archive_name, expected_name) -> bool:
 
     # We don't handle archives with multiple mods for now
     if len(mod_manifest_files) > 1:
-        sys.exit('  ❌ Multiple mod.json files were found in the archive, exiting.')
+        print('  ❌ Multiple mod.json files were found in the archive, exiting.')
+        sys.exit(4)
 
     # Compare JSON name and verified-mods.json name
     data = zip.read(mod_manifest_files[0])
     manifest = json5.loads(data)
-    ok = manifest['Name'] != expected_name
+    ok = manifest['Name'] == expected_name
     if not ok:
         print(f"\tExpected {expected_name}")
         print(f"\tReceived {manifest['Name']}")
