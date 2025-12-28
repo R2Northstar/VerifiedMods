@@ -50,5 +50,43 @@ class TestChecksumArchive(unittest.TestCase):
         r = archive_checks.check_archive(self.destination, hash)
         self.assertFalse(r)
 
+
+class TestCheckModName(unittest.TestCase):
+    destination = '/tmp/archive.zip'
+
+    def setUp(self):
+        url = "https://gcdn.thunderstore.io/live/repository/packages/cat_or_not-AmpedMobilepoints-0.0.7.zip"
+        self.archive = archive_checks.fetch_archive(url, self.destination)
+
+    def tearDown(self):
+        if os.path.exists(self.destination):
+            os.remove(self.destination)
+
+    def test_correct_name(self):
+        name = "cat_or_not.AmpedMobilepoint"
+        r = archive_checks.check_mod_name(self.destination, name)
+        self.assertTrue(r)
+
+    def test_incorrect_name(self):
+        name = "Not the correct mod name"
+        r = archive_checks.check_mod_name(self.destination, name)
+        self.assertFalse(r)
+
+    def test_incorrect_name_2(self):
+        """
+        Happened in https://github.com/R2Northstar/VerifiedMods/pull/50
+        """
+
+        name = "cat_or_not.AmpedMobilepoints"
+        r = archive_checks.check_mod_name(self.destination, name)
+        self.assertFalse(r)
+
+    def test_unexisting_archive(self):
+        os.remove(self.destination)
+        name = "cat_or_not.AmpedMobilepoint"
+        r = archive_checks.check_mod_name(self.destination, name)
+        self.assertFalse(r)
+
+
 if __name__ == "__main__":
     unittest.main()
