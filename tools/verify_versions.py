@@ -20,37 +20,42 @@ def verify_all_mod_versions():
     for mod in manifesto:
         print(f'\nVerifying "{mod}":')
 
-        # Build GitHub API link
-        words = manifesto[mod]['Repository'].split('/')
-        tags_url = f"https://api.github.com/repos/{words[-2]}/{words[-1]}/tags"
-
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
             print(f' (v{version["Version"]}):')
 
-            ## Check whether commit exists
-            distant_version = github_checks.retrieve_tag_info(version['Version'], tags_url)
-            local_hash = version['CommitHash']
+            # 1. Run checks against mod host
 
-            ### Compare manifesto commit hash with repository hash
-            if local_hash == distant_version['commit']['sha']:
+            ## 1.1. Check whether tag was published
+            distant_info = github_checks.retrieve_tag_info(version['Version'], manifesto[mod]['Repository'])
+            if distant_info == None:
+                print(f"  • VCS tag published: ❌")
+                sys.exit(1)
+            print(f"  • VCS tag published: ✔️")
+
+            ## 1.2. Check whether commit is properly declared
+            local_hash = version['CommitHash']
+            distant_hash = github_checks.get_commit_hash(distant_info)
+            if local_hash == distant_hash:
                 print(f"  • Commit hash: ✔️")
             else:
                 print(f"  • Commit hash: ❌ (hash comparison failed)")
-                sys.exit(1)
+                sys.exit(2)
 
-            ## Check archive checksum
+            # 2. Check zip archive
+
+            ## 2.1. Check archive checksum
             dest = '/tmp/archive.zip'
             archive_checks.fetch_archive(version['DownloadLink'], dest)
             if not archive_checks.check_archive(dest, version['Checksum']):
                 print(f'  • Checksum comparison: ❌')
-                sys.exit(2)
+                sys.exit(3)
             print(f"  • Checksum comparison: ✔️")
 
-            ## Check mod name
+            ## 2.2. Check mod name
             if not archive_checks.check_mod_name(dest, mod):
                 print(f'  • Name comparison: ❌')
-                sys.exit(3)
+                sys.exit(4)
             print('  • Name comparison: ✔️')
 
 
