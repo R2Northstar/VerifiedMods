@@ -19,9 +19,11 @@ def check_archive(archive_name, expected_hash) -> bool:
             else:
                 h.update(data)
 
-    if expected_hash != h.hexdigest():
-        sys.exit(f'  ❌ Checksum comparison failed (expecting "{expected_hash}", was "{h.hexdigest()}").')
-    print('  ✔️  Valid checksum.')
+    ok = expected_hash == h.hexdigest()
+    if not ok:
+        print(f"\tExpected {expected_hash}")
+        print(f"\tReceived {h.hexdigest()}")
+    return ok
 
 def check_mod_name(archive_name, expected_name) -> bool:
     zip = zipfile.ZipFile(archive_name)

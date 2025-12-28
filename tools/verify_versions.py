@@ -1,6 +1,7 @@
 import sys
 from urllib.request import urlopen
 import json
+from archive import archive_checks
 
 def verify_all_mod_versions():
     """
@@ -24,7 +25,7 @@ def verify_all_mod_versions():
 
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
-            print(f'(v{version["Version"]}):')
+            print(f'  (v{version["Version"]}):')
 
             ## Check whether commit exists
             distant_version = retrieve_tag_info(version['Version'], tags_url)
@@ -32,9 +33,17 @@ def verify_all_mod_versions():
 
             ### Compare manifesto commit hash with repository hash
             if local_hash == distant_version['commit']['sha']:
-                print(f"  Commit hash: ✔️")
+                print(f"  • Commit hash: ✔️")
             else:
-                sys.exit(f"  Commit hash: ❌ (hash comparison failed)")
+                sys.exit(f"  • Commit hash: ❌ (hash comparison failed)")
+
+            ## Check archive checksum
+            dest = '/tmp/archive.zip'
+            archive_checks.fetch_archive(version['DownloadLink'], dest)
+            if not archive_checks.check_archive(dest, version['Checksum']):
+                sys.exit(f'  • Checksum comparison: ❌')
+            print(f"  • Checksum comparison: ✔️")
+
         print()
 
 
