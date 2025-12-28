@@ -37,7 +37,7 @@ def check_mod_name(archive_name, expected_name) -> bool:
     data = zip.read(mod_manifest_files[0])
     manifest = json5.loads(data)
     if manifest['Name'] != expected_name:
-        sys.exit(f'  ❌ Name comparison failed (expecting \"{expected_name}\", was \"{manifest['Name']}\").')
+        sys.exit(f'  ❌ Name comparison failed (expecting \"{expected_name}\", was \"{manifest["Name"]}\").')
     print('  ✔️  Name comparison valid.')
 
 
