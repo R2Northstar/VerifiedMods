@@ -24,7 +24,7 @@ def verify_all_mod_versions():
 
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
-            print(f'  -> v{version['Version']}:')
+            print(f'(v{version["Version"]}):')
 
             ## Check whether commit exists
             distant_version = retrieve_tag_info(version['Version'], tags_url)
