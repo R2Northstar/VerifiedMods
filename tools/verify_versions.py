@@ -52,7 +52,7 @@ def verify_all_mod_versions():
                 sys.exit(3)
             print('  • Name comparison: ✔️')
 
-        print("")
+        print("\n")
 
 
 def retrieve_tag_info(tag_name, repository_url):
