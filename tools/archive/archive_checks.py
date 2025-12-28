@@ -65,6 +65,10 @@ def check_mod_name(archive_name, expected_name) -> bool:
     @return: whether zipped mod name is identical to {expected_name}
     """
 
+    if not os.path.exists(archive_name):
+        print('\tArchive not found.')
+        return False
+
     zip = zipfile.ZipFile(archive_name)
     mod_manifest_files = list(filter(lambda f: os.path.basename(f) == 'mod.json', zip.namelist()))
 
