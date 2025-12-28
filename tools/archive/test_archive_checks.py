@@ -46,6 +46,7 @@ class TestChecksumArchive(unittest.TestCase):
 
     def test_checksum_unexisting_archive(self):
         os.remove(self.destination)
+        hash = "b411368b17df6ab8b4179c121b0a9452cd5a88a50c0fc9fd790fda882b2c5189"
         r = archive_checks.check_archive(self.destination, hash)
         self.assertFalse(r)
 
