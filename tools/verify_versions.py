@@ -17,7 +17,7 @@ def verify_all_mod_versions():
     manifesto = json.load(f)
 
     for mod in manifesto:
-        print(f'Verifying "{mod}":')
+        print(f'\nVerifying "{mod}":')
 
         # Build GitHub API link
         words = manifesto[mod]['Repository'].split('/')
@@ -25,7 +25,7 @@ def verify_all_mod_versions():
 
         # Check all mod versions one-by-one
         for version in manifesto[mod]['Versions']:
-            print(f'  (v{version["Version"]}):')
+            print(f' (v{version["Version"]}):')
 
             ## Check whether commit exists
             distant_version = retrieve_tag_info(version['Version'], tags_url)
@@ -51,8 +51,6 @@ def verify_all_mod_versions():
                 print(f'  • Name comparison: ❌')
                 sys.exit(3)
             print('  • Name comparison: ✔️')
-
-        print("\n")
 
 
 def retrieve_tag_info(tag_name, repository_url):
