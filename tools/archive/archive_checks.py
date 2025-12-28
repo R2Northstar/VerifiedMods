@@ -74,7 +74,7 @@ def check_mod_name(archive_name, expected_name) -> bool:
 
     # We don't handle archives with multiple mods for now
     if len(mod_manifest_files) > 1:
-        print('  ⚠️ Multiple mod.json files were found in the archive, skipping verification step.')
+        print('  ⚠️  Multiple mod.json files were found in the archive, skipping verification step.')
         return True
 
     # Compare JSON name and verified-mods.json name

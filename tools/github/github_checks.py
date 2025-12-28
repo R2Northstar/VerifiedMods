@@ -17,6 +17,9 @@ def retrieve_tag_info(tag_name, repository_url):
     """
 
     api_link = build_tags_url(repository_url)
+    if api_link == None:
+        print("Failed to build GitHub API URL.")
+        return None
 
     i = 1
     while True:
@@ -37,7 +40,13 @@ def retrieve_tag_info(tag_name, repository_url):
 
 
 def build_tags_url(repository_url):
+    if "github.com" not in repository_url:
+        print("`github_checks.build_tags_url` only supports GitHub repositories.")
+        return None
     words = repository_url.split('/')
+    if len(words) != 5:
+        print(f"Badly formatted GitHub URL.")
+        return None
     return f"https://api.github.com/repos/{words[-2]}/{words[-1]}/tags"
 
 
