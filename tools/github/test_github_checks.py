@@ -16,5 +16,37 @@ class TestRetrieveTagInfo(unittest.TestCase):
         self.assertTrue(data == None)
 
 
+class TestBuildTagUrl(unittest.TestCase):
+    def test_build_url(self):
+        input = "https://github.com/Dinorush/LTSRebalance"
+        expected = "https://api.github.com/repos/Dinorush/LTSRebalance/tags"
+        r = github_checks.build_tags_url(input)
+        self.assertEqual(r, expected)
+
+    def test_build_url_2(self):
+        input = "https://github.com/catornot/AmpedMobilepoints"
+        expected = "https://api.github.com/repos/catornot/AmpedMobilepoints/tags"
+        r = github_checks.build_tags_url(input)
+        self.assertEqual(r, expected)
+
+    def test_build_gitlab_url(self):
+        input = "https://gitlab.com/Dinorush/LTSRebalance"
+        expected = None
+        r = github_checks.build_tags_url(input)
+        self.assertEqual(r, expected)
+
+    def test_build_wrong_url(self):
+        input = "https://this.com/is/wrong"
+        expected = None
+        r = github_checks.build_tags_url(input)
+        self.assertEqual(r, expected)
+
+    def test_build_wrong_url_2(self):
+        input = "https://github.com/Dinorush"
+        expected = None
+        r = github_checks.build_tags_url(input)
+        self.assertEqual(r, expected)
+
+
 if __name__ == "__main__":
     unittest.main()
