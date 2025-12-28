@@ -10,6 +10,10 @@ def fetch_archive(url, destination):
     urllib.request.urlretrieve(url, destination)
 
 def check_archive(archive_name, expected_hash) -> bool:
+    if not os.path.exists(archive_name):
+        print('\tArchive not found.')
+        return False
+
     h = hashlib.sha256()
     with open(archive_name, 'rb') as fh:
         while True:
@@ -21,8 +25,8 @@ def check_archive(archive_name, expected_hash) -> bool:
 
     ok = expected_hash == h.hexdigest()
     if not ok:
-        print(f"\tExpected {expected_hash}")
-        print(f"\tReceived {h.hexdigest()}")
+        print(f"\tExpected <{expected_hash}>")
+        print(f"\tReceived <{h.hexdigest()}>")
     return ok
 
 def check_mod_name(archive_name, expected_name) -> bool:
@@ -39,8 +43,8 @@ def check_mod_name(archive_name, expected_name) -> bool:
     manifest = json5.loads(data)
     ok = manifest['Name'] == expected_name
     if not ok:
-        print(f"\tExpected {expected_name}")
-        print(f"\tReceived {manifest['Name']}")
+        print(f"\tExpected <{expected_name}>")
+        print(f"\tReceived <{manifest['Name']}>")
     return ok
 
 
