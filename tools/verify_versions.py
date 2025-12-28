@@ -44,7 +44,12 @@ def verify_all_mod_versions():
                 sys.exit(f'  • Checksum comparison: ❌')
             print(f"  • Checksum comparison: ✔️")
 
-        print()
+            ## Check mod name
+            if not archive_checks.check_mod_name(dest, mod):
+                sys.exit(f'  • Name comparison: ❌')
+            print('  • Name comparison: ✔️')
+
+        print("")
 
 
 def retrieve_tag_info(tag_name, repository_url):

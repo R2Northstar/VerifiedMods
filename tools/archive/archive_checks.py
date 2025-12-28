@@ -36,9 +36,11 @@ def check_mod_name(archive_name, expected_name) -> bool:
     # Compare JSON name and verified-mods.json name
     data = zip.read(mod_manifest_files[0])
     manifest = json5.loads(data)
-    if manifest['Name'] != expected_name:
-        sys.exit(f'  ❌ Name comparison failed (expecting \"{expected_name}\", was \"{manifest["Name"]}\").')
-    print('  ✔️  Name comparison valid.')
+    ok = manifest['Name'] != expected_name
+    if not ok:
+        print(f"\tExpected {expected_name}")
+        print(f"\tReceived {manifest['Name']}")
+    return ok
 
 
 if __name__ == "__main__":
