@@ -6,11 +6,14 @@ from github import github_checks
 
 def verify_all_mod_versions():
     """
-    Ensure all mod versions are properly declared to GitHub.
+    Runs a variety of checks over all mod entries.
 
     For each mod entry of this repository's manifesto, this method will fetch information
     from GitHub API and compare declared SHA ("CommitHash" member) to GitHub information,
     to ensure tracability of verified mods.
+
+    This will also download the mod archive, compare its checksum with the one stored in JSON,
+    then will check if the mod is correctly named.
     """
 
     # Load local manifesto file
