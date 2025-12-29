@@ -189,6 +189,13 @@
                 "DownloadLink": "https://storage.modworkshop.net/mods/files/54736_156759_wmSoG91hmYyuJiQljT5diEL9eKemh5o9mx4xROP7.3030repeater.zip?filename=em4v.3030repeater.zip",
                 "Checksum": "acc6b38d6749a7136974f2dcd9279cfab858de10a502aa06d3dfeb5e70b60f8c",
                 "Platform": "modworkshop"
+            },
+            {
+                "Version": "0.1.0",
+                "CommitHash": "02b6955b35acc7dc270a3fe789ef7336a7782ed4",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/54736_156759_dQinhMIhnkP40dV7d8DDsIN20QcLvP0w3JRBNzH0.3030repeater.zip?filename=em4v.3030repeater.zip",
+                "Checksum": "3be50f86755150336def28e00ec0652d882582a69f08cb7f17cbc9f245e216ac",
+                "Platform": "modworkshop"
             }
         ]
     }
