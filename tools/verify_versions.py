@@ -2,7 +2,7 @@ import sys
 from urllib.request import urlopen
 import json
 
-def verify_all_mod_versions():
+def verify_all_mod_versions() -> bool:
     """
     Ensure all mod versions are properly declared to GitHub.
 
@@ -32,6 +32,7 @@ def verify_all_mod_versions():
                 print(f"\t✔️  v{version['Version']}")
             else:
                 sys.exit(f"\t❌  v{version['Version']} (hash comparison failed)")
+    return True
 
 
 def retrieve_tag_info(tag_name, repository_url):
