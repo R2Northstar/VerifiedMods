@@ -196,6 +196,32 @@
                 "DownloadLink": "https://storage.modworkshop.net/mods/files/54736_156759_wmSoG91hmYyuJiQljT5diEL9eKemh5o9mx4xROP7.3030repeater.zip?filename=em4v.3030repeater.zip",
                 "Checksum": "acc6b38d6749a7136974f2dcd9279cfab858de10a502aa06d3dfeb5e70b60f8c",
                 "Platform": "modworkshop"
+            },
+            {
+                "Version": "0.1.0",
+                "CommitHash": "02b6955b35acc7dc270a3fe789ef7336a7782ed4",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/54736_156759_dQinhMIhnkP40dV7d8DDsIN20QcLvP0w3JRBNzH0.3030repeater.zip?filename=em4v.3030repeater.zip",
+                "Checksum": "3be50f86755150336def28e00ec0652d882582a69f08cb7f17cbc9f245e216ac",
+                "Platform": "modworkshop"
+            }
+        ]
+    },
+        "Apex Weapons Pack": {
+        "Repository": "https://github.com/EM4Volts/Apex-Legends-3030-r2",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "CommitHash": "02b6955b35acc7dc270a3fe789ef7336a7782ed4",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/55042_156759_J5N2fPp8DJrfIOfNykS1vuFco36a8WZUGEqHc0Pi.ApexWeaponPack.zip?filename=FourthVolt.ApexWeaponPack.zip",
+                "Checksum": "bcb2863363cac4ac73de165c64f1a4a7b7fd5563e1331c5b7a4f06afe6ba3336",
+                "Platform": "modworkshop"
+            },
+            {
+                "Version": "1.0.2",
+                "CommitHash": "02b6955b35acc7dc270a3fe789ef7336a7782ed4",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/55042_156759_lXpap5DgQnSRnH6NSM1gktg6k2O497iMdFHuMotx.ApexWeaponPack.zip?filename=FourthVolt.ApexWeaponPack.zip",
+                "Checksum": "f2db7b67a6d28e5f177ef64b764e3f7a828fcaa26b5e7f71fbc72e13d5fbf092",
+                "Platform": "modworkshop"
             }
         ]
     }
