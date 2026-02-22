@@ -224,5 +224,17 @@
                 "Platform": "modworkshop"
             }
         ]
+    },
+      "rakostar.aimassisttweaker": {
+        "Repository": "https://github.com/pellpk/TF2AATweaker",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "CommitHash": "f0da4677bcaa93911e0766768f7ceda85ad725ff",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/rakostar-aimassisttweaker-1.0.0.zip",
+                "Checksum": "8a087271281411ffb71ad0ddf226f99c46a8d9585b3b07b32d0e7085f6d79d5b",
+                "Platform": "thunderstore"
+            }
+        ]
     }
 }
