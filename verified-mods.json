@@ -161,6 +161,18 @@
             }
         ]
     },
+    "skrubslayer.mp_fieldbattle": {
+        "Repository": "https://github.com/CodyIBrealey/mp_fieldbattle",
+        "Versions": [
+            {
+                "Version": "0.0.1",
+                "CommitHash": "68e0021bfeb7f59cf8a32ed5b3102c2829338e83",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_fieldbattle-0.0.1.zip",
+                "Checksum": "d1cd61675820193a8467718263b8ed196c7ef6b3602e215ef3b3be3d8ef5afef",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
     "Neko's Onslaught": {
         "Repository": "https://github.com/ASillyNeko/Onslaught",
         "Versions": [
