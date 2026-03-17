@@ -237,7 +237,7 @@
             }
         ]
     },
-        "rakostar.aimassisttweaker": {
+              "rakostar.aimassisttweaker": {
         "Repository": "https://github.com/pellpk/TF2AATweaker",
         "Versions": [
             {
@@ -245,6 +245,13 @@
                 "CommitHash": "84a9cc6eded92d446ce54700c4e2d9504f00fab0",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/rakostar-aimassisttweaker-1.0.4.zip",
                 "Checksum": "60e433359310652f035f6ab7f44eea72f5b0aa652417337879013ce64f01ad2f",
+                "Platform": "thunderstore"
+            },
+            {
+         "Version": "1.1.0",
+                "CommitHash": "0be56ae83344c2b11a558d967dd779b2a5328eb1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/rakostar-aimassisttweaker-1.1.0.zip",
+                "Checksum": "4faf41324381348e5608b50151358c551fb64c9b6bcb387f4a0785633d78011a",
                 "Platform": "thunderstore"
             }
         ]
