@@ -248,5 +248,17 @@
                 "Platform": "thunderstore"
             }
         ]
+    },
+        "lexi.lexire125": {
+        "Repository": "https://github.com/Dys-lexi/lexire125",
+            "Versions": [
+                {
+                    "Version": "1.0.7",
+                    "CommitHash": "36e434972034557e23a8a37f0b007644838659a3",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/LexiGlasss_Modding_Cooperation-lexire125-1.0.7.zip",
+                    "Checksum": "f69d99349d7cbfbdf2a670e98d780808b0c64416b790217ea8372ce97e8ad372",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
