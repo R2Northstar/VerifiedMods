@@ -253,5 +253,17 @@
                     "Platform": "thunderstore"
                 }
             ]
+    },
+        "M2.PugRebalance": {
+        "Repository": "https://github.com/johndragstrafe/PugRebal_Beta",
+            "Versions": [
+                {
+                    "Version": "1.0.1",
+                    "CommitHash": "09d4fa78cb69a7647477e53d39580e3aa95ca995",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/M2Crew-PugRebalance-1.0.1.zip",
+                    "Checksum": "f0ea27bf19d4904142e4d422f1e4f0b251e510c908c4feb36be8529be8e84b3a",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
