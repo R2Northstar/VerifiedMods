@@ -48,13 +48,6 @@
                 "Platform": "thunderstore"
             },
             {
-                "Version": "0.3.3",
-                "CommitHash": "aaa5195f50e4cc6fdf6190f29ea2c86e17eb8ac9",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Alystrasz-Parkour-0.3.3.zip",
-                "Checksum": "e0f79dd9fed1ea035989c3cc4d634220d496fee3c2c46f1c8d733422b3b2e889",
-                "Platform": "thunderstore"
-            },
-            {
                 "Version": "0.3.4",
                 "CommitHash": "b045911baba5da382717c37e15278e43b750d540",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Alystrasz-Parkour-0.3.4.zip",
@@ -274,5 +267,41 @@
                 "Platform": "modworkshop"
             }
         ]
+    },
+        "rakostar.aimassisttweaker": {
+        "Repository": "https://github.com/pellpk/TF2AATweaker",
+        "Versions": [
+            {
+                "Version": "1.0.4",
+                "CommitHash": "84a9cc6eded92d446ce54700c4e2d9504f00fab0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/rakostar-aimassisttweaker-1.0.4.zip",
+                "Checksum": "60e433359310652f035f6ab7f44eea72f5b0aa652417337879013ce64f01ad2f",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+        "lexi.lexire125": {
+        "Repository": "https://github.com/Dys-lexi/lexire125",
+            "Versions": [
+                {
+                    "Version": "1.0.7",
+                    "CommitHash": "36e434972034557e23a8a37f0b007644838659a3",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/LexiGlasss_Modding_Cooperation-lexire125-1.0.7.zip",
+                    "Checksum": "f69d99349d7cbfbdf2a670e98d780808b0c64416b790217ea8372ce97e8ad372",
+                    "Platform": "thunderstore"
+                }
+            ]
+    },
+        "M2.PugRebalance": {
+        "Repository": "https://github.com/johndragstrafe/PugRebal_Beta",
+            "Versions": [
+                {
+                    "Version": "1.0.1",
+                    "CommitHash": "09d4fa78cb69a7647477e53d39580e3aa95ca995",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/M2Crew-PugRebalance-1.0.1.zip",
+                    "Checksum": "f0ea27bf19d4904142e4d422f1e4f0b251e510c908c4feb36be8529be8e84b3a",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
