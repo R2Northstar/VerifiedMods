@@ -151,6 +151,13 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_sanctuary-0.0.3.zip",
                 "Checksum": "58c59218daf027b1f87632bd0d48ada703878baf35d868978377184a9ea2d1a8",
                 "Platform": "thunderstore"
+            },
+            {
+                "Version": "0.0.5",
+                "CommitHash": "6ef8bd913feedfebd5e56e9b0b3d0bc14ff1ada7",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_sanctuary-0.0.5.zip",
+                "Checksum": "26c6adc3f6185e9239280bf901817e3a477ad0b770d20445930e3a93eb4cf49a",
+                "Platform": "thunderstore"
             }
         ]
     },
@@ -162,6 +169,37 @@
                 "CommitHash": "68e0021bfeb7f59cf8a32ed5b3102c2829338e83",
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_fieldbattle-0.0.1.zip",
                 "Checksum": "d1cd61675820193a8467718263b8ed196c7ef6b3602e215ef3b3be3d8ef5afef",
+                "Platform": "thunderstore"
+            },
+            {
+                "Version": "0.0.6",
+                "CommitHash": "70f66d14f3a6291cf2d5fcfb2b4048254b084ae0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_fieldbattle-0.0.6.zip",
+                "Checksum": "dda769cf6e77ad0e50c71c87b5fa92daa555fbb3728bab5c5a91de8ca768e4af",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+        "skrubslayer.mp_structure": {
+        "Repository": "https://github.com/CodyIBrealey/mp_structure",
+        "Versions": [
+            {
+                "Version": "0.0.3",
+                "CommitHash": "d8ac48c3ce5ef76ede8eb731ee1ee69685b79c0a",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_structure-0.0.3.zip",
+                "Checksum": "d8f2ab9ef70dea27b0a5d78639e6ffe27ec5c1c8161b43e09764756b2c4e6a84",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
+        "skrubslayer.mp_towers": {
+        "Repository": "https://github.com/CodyIBrealey/mp_towers",
+        "Versions": [
+            {
+                "Version": "0.0.3",
+                "CommitHash": "4a8d8fbc891fac0bf8bacac17cbd6309334bdcb5",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_towers-0.0.3.zip",
+                "Checksum": "26f840ba6cec20251f59d5a87bf577177cfa56d6dc92168e633118b79dc1f29a",
                 "Platform": "thunderstore"
             }
         ]
