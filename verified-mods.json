@@ -177,6 +177,13 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_fieldbattle-0.0.6.zip",
                 "Checksum": "dda769cf6e77ad0e50c71c87b5fa92daa555fbb3728bab5c5a91de8ca768e4af",
                 "Platform": "thunderstore"
+            },
+            {
+                "Version": "0.0.8",
+                "CommitHash": "4394cd1d9ae48d23f727f298d5906f1984e7627d",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_fieldbattle-0.0.8.zip",
+                "Checksum": "bd713559e8723eb1bec3822aec0babd9d68a67d246b5ac1b016292412b457594",
+                "Platform": "thunderstore"
             }
         ]
     },
