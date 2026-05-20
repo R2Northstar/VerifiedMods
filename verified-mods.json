@@ -60,6 +60,13 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Alystrasz-Parkour-0.3.5.zip",
                 "Checksum": "a1db06c5f505327bb9455793b90ffffdf360e36e7a996f9051b8538eb0309719",
                 "Platform": "thunderstore"
+            },
+             {
+                "Version": "0.3.6",
+                "CommitHash": "fd2eaca2142c776a8a2229ff22116fa6a76f75ca",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Alystrasz-Parkour-0.3.6.zip",
+                "Checksum": "dbe4e1df0da44868885fcda40adf3f63400da5ea70d4c954c18a6f955953cb2e",
+                "Platform": "thunderstore"
             }
         ]
     },
