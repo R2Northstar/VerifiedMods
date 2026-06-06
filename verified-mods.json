@@ -317,5 +317,17 @@
                     "Platform": "thunderstore"
                 }
             ]
+    },
+    "SimpTrad": {
+        "Repository": "https://github.com/86Yin/SimpTrad",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "CommitHash": "7b290a3f65c7e40c60bae8ddea5f79fd6af85ebe",
+                "DownloadLink": "https://storage.modworkshop.net/mods/files/57352_218130_EKAd7lqbPir8FcgEW674utth4fHz9a2tpxYEKry1.zip?filename=SimpTrad.zip",
+                "Checksum": "a7b672b27479f8b6ffca316b68cb783da8b8b30c027f03c6dba1876e137db729",
+                "Platform": "modworkshop"
+            }
+        ]
     }
 }
