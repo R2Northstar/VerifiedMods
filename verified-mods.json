@@ -348,6 +348,13 @@
                     "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/M2Crew-PugRebalance-1.2.0.zip",
                     "Checksum": "0b6c69de793f2e44e4f6764bbbfc6772b50e1a82fe640a224a7da33d3d8cf8ff",
                     "Platform": "thunderstore"
+                },
+                {
+                    "Version": "1.2.1",
+                    "CommitHash": "0c77ca2a57ef4e29f811ae0801623af3c7d8b197",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/M2Crew-PugRebalance-1.2.1.zip",
+                    "Checksum": "9625b7f4176f1bf6e1a98d60d530ea1ad946f48669cb19d3e0e3bfef5541b21e",
+                    "Platform": "thunderstore"
                 }
             ]
     }
