@@ -227,6 +227,13 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_abyss-0.0.1.zip",
                 "Checksum": "4a0aa972094ed502bb4beea168fda701d680c9c3ce123eb192b5d68f5ec3d875",
                 "Platform": "thunderstore"
+            },
+            {
+                "Version": "0.0.2",
+                "CommitHash": "1d6c10bcc6366134bbe0df8f3ea07215d336c220",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_abyss-0.0.2.zip",
+                "Checksum": "adf012368a154752501a63f9213eeef2d472094c09105bffa5bb25a882fac273",
+                "Platform": "thunderstore"
             }
         ]
     },
