@@ -365,7 +365,7 @@
                 }
             ]
     },
-        "Allusive.Swampland": {
+    "Allusive.Swampland": {
         "Repository": "https://github.com/AllusiveWheat/Swampland",
             "Versions": [
                 {
@@ -376,5 +376,5 @@
                     "Platform": "thunderstore"
                 }
             ]
-    },
+    }
 }
