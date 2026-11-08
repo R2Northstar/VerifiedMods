@@ -386,6 +386,13 @@
                     "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-TraningGround-1.0.0.zip",
                     "Checksum": "4119162c8172023dd539a9bf5792a5e7246ed4662d170bada9532421235633f4",
                     "Platform": "thunderstore"
+                },
+                {
+                    "Version": "1.0.2",
+                    "CommitHash": "470607c9e793379ae118f9f84fb6b29449a91c64",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-TraningGround-1.0.2.zip",
+                    "Checksum": "bef2cff009d15f3f012e99b751c9304576b046ae90e7ab8c12c5c2012f39098a",
+                    "Platform": "thunderstore"
                 }
             ]
     }
