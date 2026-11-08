@@ -388,10 +388,10 @@
                     "Platform": "thunderstore"
                 },
                 {
-                    "Version": "1.0.1",
+                    "Version": "1.0.2",
                     "CommitHash": "470607c9e793379ae118f9f84fb6b29449a91c64",
                     "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-TraningGround-1.0.1.zip",
-                    "Checksum": "8d612745349e32fbf9749fcb01244e7a1e0f11fa6785624875ee925aa360d230",
+                    "Checksum": "bef2cff009d15f3f012e99b751c9304576b046ae90e7ab8c12c5c2012f39098a",
                     "Platform": "thunderstore"
                 }
             ]
