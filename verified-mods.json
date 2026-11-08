@@ -388,5 +388,17 @@
                     "Platform": "thunderstore"
                 }
             ]
-    }
+    },
+    "Sonny.Nexus": {
+        "Repository": "https://github.com/AllusiveWheat/Nexus",
+            "Versions": [
+                {
+                    "Version": "1.0.0",
+                    "CommitHash": "5674e7cba5d4cb1b180957fdaf3a7fd7517b6fd4",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/r2ion-Nexus-1.0.0.zip",
+                    "Checksum": "a9f56beeaf2c54bf86f51c7876f6c9fb99afba978178937d4c153bb0ade9867b",
+                    "Platform": "thunderstore"
+                }
+            ]
+    },
 }
