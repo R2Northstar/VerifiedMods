@@ -407,5 +407,17 @@
                     "Platform": "thunderstore"
                 }
             ]
+    },
+    "sonny.SmugglersCove": {
+        "Repository": "https://github.com/AllusiveWheat/Smugglers",
+            "Versions": [
+                {
+                    "Version": "1.0.0",
+                    "CommitHash": "b9b0dfe6ed77e2d9915a669a2902b86fcd760c86",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/r2ion-SmugglersCove-1.0.0.zip",
+                    "Checksum": "34c69762c7c3b162e963163edbee37301a180b1f7a4ec561087644645bc58aa1",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
