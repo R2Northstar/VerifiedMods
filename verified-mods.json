@@ -419,5 +419,17 @@
                     "Platform": "thunderstore"
                 }
             ]
+    },
+    "Allusive.Lagoon": {
+        "Repository": "https://github.com/AllusiveWheat/Lagoon",
+            "Versions": [
+                {
+                    "Version": "1.0.0",
+                    "CommitHash": "3fd441a2956776ea98802f1793b0ff5f0b3a8c45",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-Lagoon-1.0.0.zip",
+                    "Checksum": "3534f900e889d3ab2e1337f4a1d49709cdcf270857469c2b2d28558345ffafc8",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
