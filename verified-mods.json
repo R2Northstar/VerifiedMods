@@ -441,7 +441,7 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Airbase-1.0.1.zip",
                 "Checksum": "ba9290d83a722c310997c9ae171416f2009a68fe82cfd06a27b079d0e19a1c75",
                 "Platform": "thunderstore",
-                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
             }
         ]
     },
@@ -476,11 +476,11 @@
         "Repository": "https://github.com/Strykus/TF1-maps",
         "Versions": [
             {
-                "Version": "1.0.4",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Lagoon-1.0.4.zip",
-                "Checksum": "7315dde627e715caa90d0b9a55c9c6150dd156c8d82e76ecda4c63c363e8da2e",
+                "Version": "1.0.5",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Lagoon-1.0.5.zip",
+                "Checksum": "45ec9f03c3822fecdcf9e2d8df006258140e03dcef6f6044abe79b100be4dee3",
                 "Platform": "thunderstore",
-                "CommitHash": "fd02f8ec274dc7d9a89b2ec786a65b15806fe175"
+                "CommitHash": "43c6cc29ea720d52702d60ea8b3ab6f454831e2d"
             }
         ]
     },
@@ -493,7 +493,7 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Nexus-1.0.1.zip",
                 "Checksum": "a099b7ea858be2c260b43716253897a7d5bb5d98f467058f24a1e3de3b3b3229",
                 "Platform": "thunderstore",
-                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
             }
         ]
     },
@@ -519,7 +519,7 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Overlook-1.0.1.zip",
                 "Checksum": "a1b80814f99a2b7cde58f9ff53bfd5e5798bb509eb235a0dc939d92aa576025f",
                 "Platform": "thunderstore",
-                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
             }
         ]
     },
@@ -528,11 +528,11 @@
         "Repository": "https://github.com/Strykus/TF1-maps",
         "Versions": [
             {
-                "Version": "1.0.0",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Runoff-1.0.0.zip",
-                "Checksum": "9074c9cd5f68b093a1cfc9c15bd702bb9ed1b6299986f8eeb0d99233f6b13095",
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Runoff-1.0.1.zip",
+                "Checksum": "a1f3470d306396c66a409fce052589aeefd5c3d903c103fa59dc5bcb923e7501",
                 "Platform": "thunderstore",
-                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
             }
         ]
     },
