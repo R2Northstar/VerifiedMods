@@ -489,11 +489,11 @@
         "Repository": "https://github.com/Strykus/TF1-maps",
         "Versions": [
             {
-                "Version": "1.0.0",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Nexus-1.0.0.zip",
-                "Checksum": "3ab5c2fce60496bb4999374bdcb195659d1558485a1ff4a30eebdf972ef4a15f",
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Nexus-1.0.1.zip",
+                "Checksum": "a099b7ea858be2c260b43716253897a7d5bb5d98f467058f24a1e3de3b3b3229",
                 "Platform": "thunderstore",
-                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
             }
         ]
     },
