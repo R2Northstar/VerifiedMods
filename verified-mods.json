@@ -441,7 +441,7 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Airbase-1.0.1.zip",
                 "Checksum": "ba9290d83a722c310997c9ae171416f2009a68fe82cfd06a27b079d0e19a1c75",
                 "Platform": "thunderstore",
-                "CommitHash": "73edb9dd8530ff04360b539acd9cf8a2a7b34d04"
+                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
             }
         ]
     },
@@ -519,7 +519,7 @@
                 "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Overlook-1.0.1.zip",
                 "Checksum": "a1b80814f99a2b7cde58f9ff53bfd5e5798bb509eb235a0dc939d92aa576025f",
                 "Platform": "thunderstore",
-                "CommitHash": "73edb9dd8530ff04360b539acd9cf8a2a7b34d04"
+                "CommitHash": "0aeb57665d917d940b45d9abde0bb342ea055695"
             }
         ]
     },
