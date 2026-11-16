@@ -437,11 +437,11 @@
         "Repository": "https://github.com/Strykus/TF1-maps",
         "Versions": [
             {
-                "Version": "1.0.0",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Airbase-1.0.0.zip",
-                "Checksum": "b77f698b7d3d29407a26630ee85cecf025b91d9890342397b25b519b153fdfd1",
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Airbase-1.0.1.zip",
+                "Checksum": "ba9290d83a722c310997c9ae171416f2009a68fe82cfd06a27b079d0e19a1c75",
                 "Platform": "thunderstore",
-                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+                "CommitHash": "73edb9dd8530ff04360b539acd9cf8a2a7b34d04"
             }
         ]
     },
@@ -515,11 +515,11 @@
         "Repository": "https://github.com/Strykus/TF1-maps",
         "Versions": [
             {
-                "Version": "1.0.0",
-                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Overlook-1.0.0.zip",
-                "Checksum": "57ca085266ca25361d3575c7354d936885dc7972b7fa334e438c992096d1840e",
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Overlook-1.0.1.zip",
+                "Checksum": "a1b80814f99a2b7cde58f9ff53bfd5e5798bb509eb235a0dc939d92aa576025f",
                 "Platform": "thunderstore",
-                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+                "CommitHash": "73edb9dd8530ff04360b539acd9cf8a2a7b34d04"
             }
         ]
     },
