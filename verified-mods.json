@@ -237,6 +237,18 @@
             }
         ]
     },
+    "skrubslayer.mp_bounce_city": {
+        "Repository": "https://github.com/CodyIBrealey/mp_bounce_city",
+        "Versions": [
+            {
+                "Version": "0.0.1",
+                "CommitHash": "16d4402a1171b07a51f14fbc1a37c7d33adc2844",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_bounce_city-0.0.1.zip",
+                "Checksum": "3307b63546e3cc469123f46e341c6f3916f810d8f43abbf083b1daa4f461dbe0",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
     "Neko's Onslaught": {
         "Repository": "https://github.com/ASillyNeko/Onslaught",
         "Versions": [
