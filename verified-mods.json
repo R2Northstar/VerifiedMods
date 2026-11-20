@@ -444,6 +444,136 @@
                 }
             ]
     },
+    "Avalar.TF1.Airbase": {
+        "DependencyPrefix": "Avalar-TF1_Airbase",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Airbase-1.0.1.zip",
+                "Checksum": "ba9290d83a722c310997c9ae171416f2009a68fe82cfd06a27b079d0e19a1c75",
+                "Platform": "thunderstore",
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
+            }
+        ]
+    },
+    "Avalar.TF1.Export": {
+        "DependencyPrefix": "Avalar-TF1_Export",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Export-1.0.0.zip",
+                "Checksum": "f05d7d5887fe96de8c9e6ddef082853147ee174bef0acbae0fe9cf6f28e33285",
+                "Platform": "thunderstore",
+                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+            }
+        ]
+    },
+    "Avalar.TF1.Fracture": {
+        "DependencyPrefix": "Avalar-TF1_Fracture",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Fracture-1.0.0.zip",
+                "Checksum": "de91afed477129f2407f65d964af03feaa4424c91a3bdd1b65e81f186c1c3959",
+                "Platform": "thunderstore",
+                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+            }
+        ]
+    },
+    "Avalar.TF1.Lagoon": {
+        "DependencyPrefix": "Avalar-TF1_Lagoon",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.5",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Lagoon-1.0.5.zip",
+                "Checksum": "45ec9f03c3822fecdcf9e2d8df006258140e03dcef6f6044abe79b100be4dee3",
+                "Platform": "thunderstore",
+                "CommitHash": "43c6cc29ea720d52702d60ea8b3ab6f454831e2d"
+            }
+        ]
+    },
+    "Avalar.TF1.Nexus": {
+        "DependencyPrefix": "Avalar-TF1_Nexus",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Nexus-1.0.1.zip",
+                "Checksum": "a099b7ea858be2c260b43716253897a7d5bb5d98f467058f24a1e3de3b3b3229",
+                "Platform": "thunderstore",
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
+            }
+        ]
+    },
+    "Avalar.TF1.Outpost207": {
+        "DependencyPrefix": "Avalar-TF1_Outpost207",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Outpost207-1.0.0.zip",
+                "Checksum": "92712a08b25d8496d488b204a0a510d177c4325e88c27185b6258ad5b998fa54",
+                "Platform": "thunderstore",
+                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+            }
+        ]
+    },
+    "Avalar.TF1.Overlook": {
+        "DependencyPrefix": "Avalar-TF1_Overlook",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Overlook-1.0.1.zip",
+                "Checksum": "a1b80814f99a2b7cde58f9ff53bfd5e5798bb509eb235a0dc939d92aa576025f",
+                "Platform": "thunderstore",
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
+            }
+        ]
+    },
+    "Avalar.TF1.Runoff": {
+        "DependencyPrefix": "Avalar-TF1_Runoff",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.1",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Runoff-1.0.1.zip",
+                "Checksum": "a1f3470d306396c66a409fce052589aeefd5c3d903c103fa59dc5bcb923e7501",
+                "Platform": "thunderstore",
+                "CommitHash": "15487e55e44534c175ed43e978e23c5e43a1b9d5"
+            }
+        ]
+    },
+    "Avalar.TF1.Sandtrap": {
+        "DependencyPrefix": "Avalar-TF1_Sandtrap",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Sandtrap-1.0.0.zip",
+                "Checksum": "bd7e64901ff644bc17f43cf08592afb7f5f9ebcde18480f92f6d6cda020b7e0e",
+                "Platform": "thunderstore",
+                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+            }
+        ]
+    },
+    "Avalar.TF1.Swampland": {
+        "DependencyPrefix": "Avalar-TF1_Swampland",
+        "Repository": "https://github.com/Strykus/TF1-maps",
+        "Versions": [
+            {
+                "Version": "1.0.0",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/Avalar-TF1_Swampland-1.0.0.zip",
+                "Checksum": "9fadde858af6b40a2438c142e91d605b56d20f233d8294f96a572e362c012e18",
+                "Platform": "thunderstore",
+                "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
+            }
+        ]
+    },
      "Allusive.Boneyard": {
         "Repository": "https://github.com/AllusiveWheat/Lagoon",
             "Versions": [
