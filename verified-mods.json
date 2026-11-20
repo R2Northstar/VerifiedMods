@@ -237,6 +237,18 @@
             }
         ]
     },
+    "skrubslayer.mp_bounce_city": {
+        "Repository": "https://github.com/CodyIBrealey/mp_bounce_city",
+        "Versions": [
+            {
+                "Version": "0.0.1",
+                "CommitHash": "16d4402a1171b07a51f14fbc1a37c7d33adc2844",
+                "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/skrubslayer69-mp_bounce_city-0.0.1.zip",
+                "Checksum": "3307b63546e3cc469123f46e341c6f3916f810d8f43abbf083b1daa4f461dbe0",
+                "Platform": "thunderstore"
+            }
+        ]
+    },
     "Neko's Onslaught": {
         "Repository": "https://github.com/ASillyNeko/Onslaught",
         "Versions": [
@@ -561,5 +573,24 @@
                 "CommitHash": "a9fadd0809ad80826957d7e4ec67e9b784df985a"
             }
         ]
+    },
+     "Allusive.Boneyard": {
+        "Repository": "https://github.com/AllusiveWheat/Lagoon",
+            "Versions": [
+                {
+                    "Version": "1.0.0",
+                    "CommitHash": "3fd441a2956776ea98802f1793b0ff5f0b3a8c45",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-Boneyard-1.0.0.zip",
+                    "Checksum": "f8952ca541a545d4623d8d2d147d084b3574ba32d0ca66ffefca82a47482fe76",
+                    "Platform": "thunderstore"
+                },
+                {
+                    "Version": "1.0.1",
+                    "CommitHash": "3fd441a2956776ea98802f1793b0ff5f0b3a8c45",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-Boneyard-1.0.1.zip",
+                    "Checksum": "0530bcbd8ecd7c3081e326186418eaaf8ace9e11c6a45e637d8894533af7e31a",
+                    "Platform": "thunderstore"
+                }
+            ]
     }
 }
