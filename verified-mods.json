@@ -453,6 +453,13 @@
                     "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-Boneyard-1.0.0.zip",
                     "Checksum": "f8952ca541a545d4623d8d2d147d084b3574ba32d0ca66ffefca82a47482fe76",
                     "Platform": "thunderstore"
+                },
+                {
+                    "Version": "1.0.1",
+                    "CommitHash": "3fd441a2956776ea98802f1793b0ff5f0b3a8c45",
+                    "DownloadLink": "https://gcdn.thunderstore.io/live/repository/packages/AllusiveWheat-Boneyard-1.0.1.zip",
+                    "Checksum": "0530bcbd8ecd7c3081e326186418eaaf8ace9e11c6a45e637d8894533af7e31a",
+                    "Platform": "thunderstore"
                 }
             ]
     }
